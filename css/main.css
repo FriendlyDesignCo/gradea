@@ -1,17 +1,5 @@
 /* Main styles, Grade A. */
 
-body {
-	margin:0;
-	padding:0;
-}
-
-@media screen and (max-width: 640px) {
-	body {
-		margin: 0;
-		padding: 0;
-	}
-}
-
 .navbar .container {
 	margin: auto;
 	width:80%;
@@ -35,15 +23,48 @@ body {
 	color: #4D4D4D;
 }
 
+
+p {
+	font-family: "proxima-nova", helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #4D4D4D;
+	line-height: 2em;
+}
+
+
+mark {
+	margin-bottom: 20px;
+}
+
+section {
+	clear: both;
+}
+
+
 @media screen and (max-width: 640px) {
 	.row-fluid {
 		padding: 0 0 20px;
 	}
 }
 
-p {
-	font-family: ;
-	font-size: 1.5em;
-	color: #4D4D4D;
-	line-height: 2em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
