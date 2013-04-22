@@ -1,0 +1,49 @@
+/* Main styles, Grade A. */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.navbar .container {
+	margin: auto;
+	width:80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.nav-collapse ul {
+	float: right;
+}
+
+.nav-collapse ul li {
+	float: left;
+	margin-right: 15px;
+	list-style-type: none;
+	font-family:;
+	font-size: 1.5em;
+}
+
+.nav-collapse ul li a {
+	color: #4D4D4D;
+}
+
+@media screen and (max-width: 640px) {
+	.row-fluid {
+		padding: 0 0 20px;
+	}
+}
+
+p {
+	font-family: ;
+	font-size: 1.5em;
+	color: #4D4D4D;
+	line-height: 2em;
+}
