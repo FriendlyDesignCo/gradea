@@ -5,14 +5,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="//use.typekit.net/ijo2bhz.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="css/main.css" rel="stylesheet" media="screen">
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="//use.typekit.net/ijo2bhz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   </head>
 
@@ -74,14 +75,14 @@
   <div class="span8 offset2">
     <h1>What our clients say</h1>
     <div class="row-fluid">
-      <div class="span6">
+      <div class="span6 clients">
         <p>"After 3 hrs with Grade A, my marketing team was more productive the following month than they had been the entire past [...]"</p>
         <mark>Turner Construction Company</mark>
 
         <p>"Grade A delivers on its promise for a 'fresh' approach to marketing. We made the biggest impact for our investment."</p>
         <mark>Capitol Shine</mark>
       </div>
-      <div class="span6">
+      <div class="span6 clients">
         <p>"Excellent at taking raw information and translating it into a marketing position that resonates with prospects."</p>
         <mark>C3 Integrated Solutions</mark>
 
@@ -177,6 +178,12 @@
         }); 
     });    
 }); 
+
+
+$(window).scroll(function () {
+  $(".navbar").css("background-color", "white").fadeIn("slow");
+});
+
     </script>
 
 

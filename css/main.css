@@ -44,6 +44,10 @@ img {
 }
 
 
+.whitebackground {
+	background-color: white;
+}
+
 
 #home { 
 background: url("../img/1.jpg") 50% 0 no-repeat fixed; min-height: 418px;
@@ -55,7 +59,15 @@ background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
 
 
 
+.clients p {
+	font-family: "proxima-nova", helvetica, sans-serif;
+	font-size: 1em;
+}
 
+.clients mark {
+	color: #C71949;
+	background-color: none;
+}
 
 
 
