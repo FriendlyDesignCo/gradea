@@ -30,21 +30,12 @@ p {
 	font-size: 1.5em;
 	color: #4D4D4D;
 	line-height: 2em;
+	margin-top: 50px;
 }
 
 img {
 	width: 100%;
 }
-
-
-mark {
-	margin-bottom: 20px;
-}
-
-section {
-	clear: both;
-}
-
 
 @media screen and (max-width: 640px) {
 	.row-fluid {
@@ -55,7 +46,7 @@ section {
 
 
 #home { 
-background: url(home-bg.jpg) 50% 0 repeat fixed; min-height: 1000px;
+background: url("../img/1.jpg") 50% 0 no-repeat fixed; min-height: 418px;
 }
  
 #about { 

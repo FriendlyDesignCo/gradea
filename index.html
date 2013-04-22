@@ -53,12 +53,9 @@
 
 </div>
 <section id="home" data-type="background" data-speed="10" class="pages">     
-        <img src="img/1.jpg" />
     </section>   
      
-<section id="about" data-type="background" data-speed="10" class="pages">
-         <article>Simple Parallax Scroll</article>
-</section>              
+<section id="about" data-type="background" data-speed="10" class="pages">          
 
 
 <div class="row-fluid">
@@ -70,6 +67,7 @@
     <p>Whatever your challenge, our hybrid approach (Marketing-Sales-Public Relations) will deliver positive results. </p>
   </div>
 </div>
+</section>    
 
 
 <div class="row-fluid">
@@ -162,6 +160,24 @@
     <!-- Javascript at bottom for faster loading -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this); // assigning the object
+     
+        $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+             
+            // Put together our final background position
+            var coords = '50% '+ yPos + 'px';
+ 
+            // Move the background
+            $bgobj.css({ backgroundPosition: coords });
+        }); 
+    });    
+}); 
+    </script>
 
 
 
