@@ -1,85 +1,149 @@
-/* Main styles, Grade A. */
+/* Grade A, main styles. */
 
-.navbar .container {
+/* Table of Content
+==================================================
+	# General Styles
+	# Navigation Styles
+	# Parallax Styles
+	# Type Styles
+	# Media Queries
+	# Font Face */
+
+
+/* # General Styles
+================================================== */
+.center {
 	margin: auto;
-	width:80%;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	text-align: center;
 }
 
+/* # Navigation Styles
+================================================== */
+ .navbar .container {
+    margin: auto;
+    width:80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .nav-collapse ul {
-	float: right;
-	padding-top: 25px;
+    float: right;
+    padding-top: 25px;
 }
-
 .nav-collapse ul li {
-	float: left;
-	margin-right: 15px;
-	list-style-type: none;
-	font-family:;
-	font-size: 1.5em;
+    float: left;
+    margin-right: 15px;
+    list-style-type: none;
+    font-family:;
+    font-size: 1.5em;
 }
-
 .nav-collapse ul li a {
-	color: #4D4D4D;
+    color: #4D4D4D;
+}
+/* #Parallax Styles
+================================================== */
+ img {
+    width: 100%;
+}
+#introimg {
+    background: url("../img/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 418px;
+}
+#intro {
+    background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
 }
 
-
-p {
-	font-family: "proxima-nova", helvetica, sans-serif;
-	font-size: 1.5em;
-	color: #4D4D4D;
-	line-height: 2em;
-	margin-top: 50px;
+#clientsimg {
+    background: url("../img/2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 418px;
+}
+#clients {
+    background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
 }
 
-img {
-	width: 100%;
+#valuesimg {
+    background: url("../img/3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 418px;
 }
-
-@media screen and (max-width: 640px) {
-	.row-fluid {
-		padding: 0 0 20px;
-	}
+#values {
+    background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
 }
-
-
-.whitebackground {
-	background-color: white;
+/* For jquery change, navigation bar */
+ .whitebackground {
+    background-color: white;
 }
+/* #Type Styles
+================================================== */
 
-
-#home { 
-background: url("../img/1.jpg") 50% 0 no-repeat fixed; min-height: 418px;
+/* Note: different type styles are set by DOM section.*/
+ p {
+    font-family:"proxima-nova", helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #4D4D4D;
+    line-height: 2em;
+    margin-top: 50px;
 }
- 
-#about { 
-background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;  
-}
-
-
-
 .clients p {
-	font-family: "proxima-nova", helvetica, sans-serif;
-	font-size: 1em;
+    font-family:"proxima-nova", helvetica, sans-serif;
+    font-size: 1em;
 }
-
 .clients mark {
-	color: #C71949;
-	background-color: none;
+    color: #C71949;
+    background-color: transparent;
 }
 
 
+.calls {
+	margin-top: 100px;
+}
+.calls p.center {
+	clear: both;
+	margin-top: 20px;
+}
+.calls a {
+	font-size: 1.5em;
+	font-family:"proxima-nova", helvetica, sans-serif;
+}
+a.btn-danger {
+	width: 460px;
+	background: #d82a78; /* Old browsers */
+	background: -moz-linear-gradient(top, #d82a78 0%, #9a1e4c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d82a78), color-stop(100%,#9a1e4c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d82a78 0%,#9a1e4c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d82a78 0%,#9a1e4c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d82a78 0%,#9a1e4c 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d82a78 0%,#9a1e4c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d82a78', endColorstr='#9a1e4c',GradientType=0 ); /* IE6-9 */
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 3.5em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.btn-danger:hover {
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-danger:active {
+}
+/* # Media Queries
+================================================== */
+ @media screen and (max-width: 640px) {
+    .row-fluid {
+        padding: 0 0 20px;
+    }
+}
+/* # @Font-Face
+================================================== */
