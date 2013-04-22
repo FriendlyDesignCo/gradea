@@ -3,12 +3,13 @@
 .navbar .container {
 	margin: auto;
 	width:80%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .nav-collapse ul {
 	float: right;
+	padding-top: 25px;
 }
 
 .nav-collapse ul li {
@@ -31,6 +32,10 @@ p {
 	line-height: 2em;
 }
 
+img {
+	width: 100%;
+}
+
 
 mark {
 	margin-bottom: 20px;
@@ -49,6 +54,13 @@ section {
 
 
 
+#home { 
+background: url(home-bg.jpg) 50% 0 repeat fixed; min-height: 1000px;
+}
+ 
+#about { 
+background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;  
+}
 
 
 
