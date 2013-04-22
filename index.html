@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+
+<!-- NOTES FOR GEOFF:
+
+  -Values section: needs to have text styled.
+  -Let's get social section: needs to have text styled.
+  -Parallax images: need to be cropped properly and exported for web. (The current ones are place holders.)
+  -Navigation bar: fade-in for css background needs to actually fade in. Currently it just jerks in.
+  -Widget code: needs to be put in.
+  -Footer: needs to be put it. -->
+
     
     <head>
         <title>Grade A</title>
@@ -49,7 +59,7 @@
         <section id="introimg" data-type="background" data-speed="10" class="pages"></section>
         <section id="intro" data-type="background" data-speed="10" class="pages">
             <!-- Intro Section -->
-            <div class="row-fluid">
+            <div class="row-fluid intro">
                 <div class="span8 offset2 intro">
                     <p>Grade A specializes in marketing support for professional service providers. If you don't have a marketing department, we become yours. If your marketing department needs support, we step in to help with marketing materials, sales integration, e-campaigns, social media, and plans of action.</p>
                     <p>Beginning with an assessment of your goals, we craft an action plan that pulls together the marketing elements you actually need. We prioritize, and when possible, we use existing your resources.</p>
@@ -64,11 +74,11 @@
         <section id="clientsimg" data-type="background" data-speed="10" class="pages"></section>
         <section id="clients" data-type="background" data-speed="10" class="pages">
         <!-- Client Section -->
-        <div class="row-fluid">
+        <div class="row-fluid clients">
             <div class="span8 offset2">
                  <h1>What our clients say</h1>
 
-                <div class="row-fluid clients">
+                <div class="row-fluid">
                     <div class="span6">
                         <p>"After 3 hrs with Grade A, my marketing team was more productive the following month than they had been the entire past [...]"</p>
                         <mark>Turner Construction Company</mark>
@@ -123,7 +133,7 @@
             <div class="span8 offset2 leadership">
                  <h1>Grade A Leadership</h1>
 
-                <mark>Amanda Fischer, CEO of Grade A Marketing</marK>
+                <mark>Amanda Fischer, CEO of Grade A Marketing</mark>
                 <p>After moving from St. Louis, MO to attend The George Washington University in Washington, DC, Amanda worked at DC101 Radio, WB-Television (before it was the CW), and Fleishman Hillard, International public relations. She held high level directorial and management positions in business development and marketing before deciding to start her own cross-media marketing and consulting firm in Dec. 2010 called Grade A Marketing.</p>
                 <p>Amanda has been featured in Executive Travel Magazine and ABC’s Washington Business Report. She is also Co-Founder of HD Happy Hour, an organization born in June 2009 that hosts monthly networking events for business owners and executives in the DC Metro Area.</p> <a href="#">Connect with Amanda on LinkedIn</a>
 
@@ -170,7 +180,7 @@
 
 
                 $(window).scroll(function() {
-                    $(".navbar").css("background-color", "white").fadeIn("slow");
+                    $(".navbar").fadeIn("slow").css("background-color", "white");
                 });
             </script>
     </body>

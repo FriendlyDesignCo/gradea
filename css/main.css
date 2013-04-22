@@ -17,6 +17,17 @@
 	text-align: center;
 }
 
+.intro {
+	margin-bottom: 50px;
+}
+.clients {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.calls {
+	margin-top: 50px;
+}
 /* # Navigation Styles
 ================================================== */
  .navbar .container {
@@ -94,19 +105,20 @@
     line-height: 2em;
     margin-top: 50px;
 }
+
+.cilents {
+	margin-top: 50px;
+}
 .clients p {
     font-family:"proxima-nova", helvetica, sans-serif;
     font-size: 1em;
+    margin-top: 20px;
 }
 .clients mark {
     color: #C71949;
     background-color: transparent;
 }
 
-
-.calls {
-	margin-top: 100px;
-}
 .calls p.center {
 	clear: both;
 	margin-top: 20px;
@@ -114,6 +126,11 @@
 .calls a {
 	font-size: 1.5em;
 	font-family:"proxima-nova", helvetica, sans-serif;
+}
+
+.leadership mark {
+    color: #C71949;
+    background-color: transparent;
 }
 a.btn-danger {
 	width: 460px;
