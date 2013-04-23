@@ -65,6 +65,15 @@ body{
 .nav-collapse ul li a {
     color: #4D4D4D;
 }
+
+.nav-collapse ul li a:hover {
+    color: #666666;
+    text-decoration: none;
+    border-bottom: #C71949 solid 2px;
+    padding-bottom: 5px;
+}
+
+
 /* #Parallax Styles
 ================================================== */
  img {
@@ -105,6 +114,21 @@ body{
 #values {
     background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
 }
+
+#leadershipimg {
+    background: url("../img/4.png") no-repeat center top fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    min-height: 618px;
+}
+#leadership {
+    background: url(about-bg.jpg) 50% 0 no-repeat min-height: 1000px;
+}
+
+
+
 /* For jquery change, navigation bar */
  .whitebackground {
     background-color: white;
