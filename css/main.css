@@ -36,6 +36,11 @@ body{
 .calls {
 	margin-top: 50px;
 }
+
+.getsocial {
+	margin-bottom: 100px;
+}
+
 /* # Navigation Styles
 ================================================== */
  .navbar .container {
@@ -148,7 +153,7 @@ body{
     margin-top: 50px;
 }
 
-.cilents {
+.clients {
 	margin-top: 50px;
 }
 .clients p {
@@ -219,6 +224,15 @@ a.btn-danger {
 	background: #951337; 
 
 }
+
+
+h1{
+	font-size: 4em;
+	line-height: 4em;
+	text-align: center;
+	
+}
+
 /* # Media Queries
 ================================================== */
  @media screen and (max-width: 640px) {
