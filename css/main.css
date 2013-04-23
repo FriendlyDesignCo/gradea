@@ -231,7 +231,7 @@ a.btn-danger {
 
 
 
-/* # @footer
+/* # Footer
 ================================================== */
 
 
@@ -265,6 +265,24 @@ a.btn-danger {
 	margin:-20px auto 0 auto;
 }
 
+#mainfooter {
+		background-color: #E6E6E6;
+		color: #666;
+		text-align: center;
+		height: 100%;
+		margin-top: 60px;
+		margin-bottom: 60px;
+}
+
+#mainfooter p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.copy {
+	color: #B3B3B3;
+	font-size: .8em;
+}
 
 
 
