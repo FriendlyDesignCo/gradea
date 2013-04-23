@@ -8,7 +8,8 @@
 	# Parallax Styles
 	# Type Styles
 	# Media Queries
-	# Font Face */
+	# Font Face 
+	# Footer */
 
 
 /* # General Styles
@@ -55,6 +56,7 @@ body{
     float: right;
     padding-top: 25px;
     font-size: 1.5em;
+    font-weight: 100;
     color: #4D4D4D;
 
 }
@@ -194,8 +196,13 @@ a.btn-danger {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 3.5em;
+	text-shadow: 0px -1px 1px #8C8C8C;
+    filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);
 	padding-top: 50px;
 	padding-bottom: 50px;
+	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
+    -moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
 }
 .btn-danger:hover {
 	background: #951337; /* Old browsers */
@@ -221,3 +228,44 @@ a.btn-danger {
 }
 /* # @Font-Face
 ================================================== */
+
+
+
+/* # @footer
+================================================== */
+
+
+
+#topfooter {
+	text-align: center;
+	background-color: #b3b3b3;
+	padding:60px 40px 40px 40px;
+	height: 100%;
+	font-family: georgia, serif;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+
+#rule {
+	border-top: #E6E6E6 1px solid;
+	width: 100%;
+	z-index: 0;
+	text-align: center;
+}
+
+#rule h3{
+	padding: 0;
+	background-color: #b3b3b3;
+	color: #E6E6E6;
+	text-align: center;
+	z-index: 100;
+	width: 200px;
+	margin:-20px auto 0 auto;
+}
+
+
+
+
+
