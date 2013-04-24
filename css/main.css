@@ -188,7 +188,6 @@ body{
     background-color: transparent;
 }
 a.btn-danger {
-	width: 460px;
 	background: #C71949; /* Old browsers */
 	background: -moz-linear-gradient(top, #C71949 0%, #951337 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C71949), color-stop(100%,#951337)); /* Chrome,Safari4+ */
