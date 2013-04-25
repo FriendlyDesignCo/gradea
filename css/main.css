@@ -372,11 +372,11 @@ footer{
 ================================================== */
 @media screen and (max-width: 970px) {
 	#introimg, #clientsimg, #valuesimg, #leadershipimg{
-	/*    -webkit-background-size: contain;
+	/*-webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;*/
-    background-position:;
+    background-attachment: scroll;
     background-color:#cccccc;
     min-height:400px;
 }
