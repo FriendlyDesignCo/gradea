@@ -396,29 +396,35 @@ footer{
 	.navbar .nav.pull-right{
 		font-size:1em;
 	}
+	.navbar-inner .container{
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	.navbar .nav > li > a{
+		padding-top:5px;
+		padding-bottom:5px;
+	}
 		html body, body{
 		padding:0 !important;
 		width:100%;
 	}
-	p {
+	p, h1, mark {
 		padding-left:20px;
 		padding-right:20px;
+		margin-top:25px;
 	}
-	mark {
-		padding-left:20px;
-		padding-right:20px;
+	p mark{
+		padding-left:0;
 	}
 	section ul, section ol, section ol li, section ul li{
-				padding-left:20px;
+		padding-left:20px;
 		padding-right:20px;
 	}
 		#introimg, #clientsimg, #valuesimg, #leadershipimg{
 			min-height:300px;
 		}
 
-		.navbar.navbar-fixed-top {
-	position:static;
-}
+		
 }
 @media screen and (max-width: 640px) {
 	.navbar .nav.pull-right{
@@ -456,5 +462,11 @@ footer{
 		margin-left:15px;
 	}
 
+}
+
+@media only screen and (max-device-width: 480px){
+	.navbar.navbar-fixed-top {
+	position:static;
+}
 }
 
