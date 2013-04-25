@@ -18,6 +18,14 @@ body{
     font-family:"proxima-nova", helvetica, arial, sans-serif;
 }
 
+u {
+	text-decoration: underline;
+}
+
+a{
+	color:#C71949;
+}
+
 .center {
 	margin: auto;
 	text-align: center;
@@ -89,10 +97,10 @@ body{
 }
 #introimg {
     background: url("../img/1.png") no-repeat center top fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 618px;
 }
 #intro {
@@ -101,10 +109,10 @@ body{
 
 #clientsimg {
     background: url("../img/2.png") no-repeat center top fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 618px;
 }
 #clients {
@@ -113,10 +121,10 @@ body{
 
 #valuesimg {
     background: url("../img/3.png") no-repeat center top fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 618px;
 }
 #values {
@@ -125,10 +133,10 @@ body{
 
 #leadershipimg {
     background: url("../img/4.png") no-repeat center top fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 618px;
 }
 #leadership {
@@ -164,6 +172,23 @@ body{
     color: #C71949;
     background-color: transparent;
 }
+#testimonials{
+		background: url("../img/quote-left.png") 10% 25px no-repeat, url("../img/quote-right.png") 90% bottom no-repeat;
+		display:inline-block;
+}
+/*#testimonials:before{
+	content:open-quote;
+	color:#F2F2F2;
+	font-size:120px;
+	height:0px;
+	width: 0px;
+}
+#testimonials:after{
+content:close-quote;
+	color:#F2F2F2;
+	font-size:120px;
+
+}*/
 
 .calls p.center {
 	clear: both;
@@ -175,7 +200,7 @@ body{
 }
 
 
-#values ul li{
+#values ol li{
 	font-size: 1.5em;
     font-weight: 400;
     color: #666666;
@@ -199,11 +224,10 @@ a.btn-danger {
 	font-family: Georgia, serif;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	text-shadow: 0px -1px 1px #8C8C8C;
     filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 5%;
 	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
 	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
     -moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
@@ -227,27 +251,65 @@ a.btn-danger {
 
 h1{
 	font-size: 4em;
-	line-height: 1em;
+	line-height: 1.2em;
 	text-align: center;
-	
+	font-weight:normal;
+	color:#000;
 }
 
 /* # Media Queries
 ================================================== */
+ @media screen and (max-width: 1000px) {
+#introimg, #clientsimg, #valuesimg, #leadershipimg{
+	    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+ }
  @media screen and (max-width: 640px) {
     .row-fluid {
         padding: 0 0 20px;
     }
+
+    h1{
+    	font-size:2.5em;
+    }
+    a.btn-danger{
+    	font-size:2em;
+    }
+    p{
+    	font-size:1em;
+    }
+
 }
 /* # @Font-Face
 ================================================== */
 
 
+/* # Header
+================================================== */
+.maintitle{
+	text-align: center;
+	margin-top:450px;
+}
+
+
+/* # Socialize
+================================================== */
+
+.fb-like-box, .fb-like-box iframe, .fb_iframe_widget span{
+	width:100% !important;
+}
 
 /* # Footer
 ================================================== */
 
-
+footer{
+	background:#E6E6E6;
+	padding:0 0 50px;
+}
 
 #topfooter {
 	text-align: center;
@@ -292,9 +354,20 @@ h1{
 	margin: 0px;
 }
 
+#mainfooter a.btn-danger{
+	padding:25px 15%;
+	font-size:1.1em;
+	margin-bottom:10px;
+}
+
+#mainfooter .address{
+	text-align:left;
+}
+
 .copy {
 	color: #B3B3B3;
 	font-size: .8em;
+	text-align: center;
 }
 
 
