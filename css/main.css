@@ -55,6 +55,11 @@ a{
 	margin-bottom: 100px;
 }
 
+.anchorouter {
+	position:relative;
+}
+.anchorouter span {position:absolute; top:-200px;}
+
 /* # Navigation Styles
 ================================================== */
 .navbar .container {
