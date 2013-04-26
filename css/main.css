@@ -78,7 +78,7 @@ a{
 
 .nav.pull-right{
 	margin-top:25px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 500;
 	color: #4D4D4D;
 }
@@ -93,6 +93,7 @@ a{
 	text-decoration: none;
 	border-bottom: #C71949 solid 2px;
 	padding-bottom: 5px;
+	margin-bottom: -7px;
 }
 
 .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
@@ -339,7 +340,7 @@ footer{
 	color: #E6E6E6;
 	text-align: center;
 	z-index: 100;
-	width: 200px;
+	max-width: 200px;
 	margin:-20px auto 0 auto;
 }
 
@@ -390,13 +391,19 @@ footer{
 
 .navbar.navbar-fixed-top {
 	margin-bottom: 0px !important;
-	position:fixed;
+	position:fixed !important;
 }
+
+
 
 .maintitle{
 	text-align: center;
 	padding-top:250px;
 }
+	.navbar .nav.pull-right{
+		font-size:1em;
+	}
+
 
 }
 @media screen and (max-width: 800px) {
@@ -406,10 +413,10 @@ footer{
 	.navbar-inner .container{
 		padding-top:0px;
 		padding-bottom:0px;
+		width:90%;
 	}
 	.navbar .nav > li > a{
-		padding-top:5px;
-		padding-bottom:5px;
+		padding:5px 5%;
 	}
 		html body, body{
 		padding:0 !important;
@@ -433,14 +440,26 @@ footer{
 
 		
 }
+@media screen and (max-width: 700px) {
+.navbar .navbar-inner .container{
+		width:95% !important;
+
+	}
+	.navbar a.brand {
+		width:160px;
+	}
+}
+
 @media screen and (max-width: 640px) {
 	.navbar .nav.pull-right{
 		float:none !important;
 		clear:both;
 	}
 	.navbar .nav.pull-right li{
-		width:25%;
+		width:22%;
 		text-align: center;
+		font-size:0.75em;
+		display:inline;
 	}
 	.navbar .brand{
 		margin-left:auto;
@@ -478,4 +497,11 @@ footer{
 	position:static;
 }
 }
+
+@media screen and (max-width: 380px) {
+.navbar .nav.pull-right li{
+	width:50%;
+} 
+
+	}
 
