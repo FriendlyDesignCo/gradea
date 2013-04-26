@@ -98,7 +98,7 @@
           <div class="span6 offset3 calls">
             <p class="center">Explore working with Grade A on your next marketing challenge:</p>
             <p class="center"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-danger center">Contact us here.</a></p>             
-             <!-- <p class="center"><a href="#" class="center">Then sign up for our email updates</a></p> -->
+             <p class="center"><a href="http://eepurl.com/hZEm2" class="center">Then sign up for our email updates</a></p>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@
     <h3 id="myModalLabel">Contact</h3>
   </div>
   <div class="modal-body">
-    <form>
+    <form method="post" action="contactEmail.php" id="contactForm">
       <div class="controls controls-row">
           <input id="name" name="name" type="text" class="input-large" placeholder="Name" required> 
           <input id="email" name="email" type="email" class="input-large" placeholder="Email address" required>
@@ -251,5 +251,24 @@
                     $(".navbar").fadeIn(500).css("background-color", "rgba(255,255,255,0.5)") .easing("swing") ;
                 });
               </script> -->
+              
+<!-- Contact Us Form --> 
+<script type="text/javascript">
+$(document).ready(function() {
+   $("#contactForm").submit(function(event) {
+      event.preventDefault();
+      $.ajax({
+         type: "POST",
+         url: $(this).attr("action"),
+         data: $(this).serialize(),
+         success: function(data) {
+            $("#myModal div.modal-body").html(data);
+         }
+      });
+   });
+});
+</script>
+
+
             </body>
             </html>
