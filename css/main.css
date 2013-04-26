@@ -79,7 +79,7 @@ a{
 .nav.pull-right{
 	margin-top:25px;
 	font-size: 1.5em;
-	font-weight: 100;
+	font-weight: 500;
 	color: #4D4D4D;
 }
 
@@ -188,7 +188,7 @@ p {
 	margin-top: 50px;
 }
 .clients p {
-	font-size: 1em;
+	font-size: 1.25em;
 	margin-top: 20px;
 }
 .clients mark {
@@ -223,7 +223,7 @@ content:close-quote;
 	}
 
 
-	#values ol li{
+	#values ul li{
 		font-size: 1.5em;
 		font-weight: 400;
 		color: #666666;
@@ -295,6 +295,7 @@ content:close-quote;
 .maintitle{
 	text-align: center;
 	padding-top:350px;
+	color: #C71949;
 }
 
 
@@ -438,7 +439,7 @@ footer{
 		clear:both;
 	}
 	.navbar .nav.pull-right li{
-		width:33.33%;
+		width:25%;
 		text-align: center;
 	}
 	.navbar .brand{
@@ -461,10 +462,10 @@ footer{
 	a.btn-danger{
 		font-size:2em;
 	}
-	p, #values ol li{
+	p, #values ul li{
 		font-size:1em;
 	}
-	#values ol li{
+	#values ul li{
 		margin-left:15px;
 	}
 #leadershipimg {
