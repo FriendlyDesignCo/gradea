@@ -546,15 +546,16 @@ font-size: 3em;
 }
 }
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-width: 480px){
 	.navbar.navbar-fixed-top {
 	position:static;
-}
+	}
 }
 
 @media screen and (max-width: 380px) {
 .navbar .nav.pull-right li{
-	width:50%;
+	width:inherit;
+	padding-right:10px;
 	text-align: left;
 
 } 
