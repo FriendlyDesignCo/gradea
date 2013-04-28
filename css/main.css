@@ -550,6 +550,8 @@ font-size: 3em;
 	}
 #leadershipimg {
 	background-size: cover;
+	-webkit-background-size: 1099px 618px;
+
 }
 }
 
