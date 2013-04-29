@@ -434,6 +434,44 @@ footer{
 
 /* # Media Queries
 ================================================== */
+@media screen and (max-width: 1024px) {
+	#introimg {
+	background: url("../img/1.png") no-repeat center top fixed 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	min-height: 518px;
+}
+
+#clientsimg {
+	background: url("../img/2.png") no-repeat center 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	min-height: 518px;
+}
+
+#valuesimg {
+	background: url("../img/3.png") no-repeat center 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	min-height: 518px;
+}
+
+#leadershipimg {
+	background: url("../img/4.png") no-repeat center 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	min-height: 518px;
+}
+
+}
 @media screen and (max-width: 970px) {
 	#introimg, #clientsimg, #valuesimg, #leadershipimg{
 	/*-webkit-background-size: contain;
@@ -496,7 +534,7 @@ font-size: 3em;
 		padding-right:20px;
 	}
 		#introimg, #clientsimg, #valuesimg, #leadershipimg{
-			min-height:300px;
+			min-height:170px;
 		}
 #mainfooter .span4 {
 		text-align: center;
@@ -562,6 +600,11 @@ font-size: 3em;
 	.navbar.navbar-fixed-top {
 	position:static;
 	}
+	
+	#leadershipimg {
+		background-position: 0% 50%;
+		max-height: 100%;
+	}
 }
 
 @media screen and (max-width: 380px) {
@@ -570,7 +613,11 @@ font-size: 3em;
 	padding-right:10px;
 	text-align: left;
 
-} 
+}
+#leadershipimg {
+		background-position: 33% 25%;
+		max-height: 100%;
+	} 
 
 	}
 
