@@ -302,7 +302,10 @@ content:close-quote;
 .maintitle{
 	text-align: center;
 	padding-top:75px;
-	color: #C71949;
+	color: #666666;
+	font-family: Georgia, serif;
+	font-style: italic;
+	padding-bottom: 75px;
 }
 
 /* # Modal
