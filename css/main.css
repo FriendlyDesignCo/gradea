@@ -193,7 +193,7 @@ p {
 	background-color: transparent;
 }
 #testimonials{
-	background: url("../img/quote-left.png") 10% 25px no-repeat, url("../img/quote-right.png") 90% bottom no-repeat;
+	background: url("../img/quote-left.png") 10% center no-repeat, url("../img/quote-right.png") 90% center no-repeat;
 	display:inline-block;
 }
 /*#testimonials:before{
@@ -584,4 +584,7 @@ footer{
 	#introimg, #clientsimg, #valuesimg, #leadershipimg { 
 		-webkit-background-size: cover;
 	}
+	#testimonials{
+	background: none;
+}
 }
