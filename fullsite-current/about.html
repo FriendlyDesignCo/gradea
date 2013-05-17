@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Grade A | About</title>
+
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="css/foundation.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/navstyles.css"/>
+
+<!--JS-->
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+<!--menu bar-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>
+    $(function() {
+      var pull    = $('#pull');
+        menu    = $('nav ul');
+        menuHeight  = menu.height();
+
+      $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+
+      $(window).resize(function(){
+            var w = $(window).width();
+            if(w > 320 && menu.is(':hidden')) {
+              menu.removeAttr('style');
+            }
+        });
+    });
+  </script>
+  
+<!--Typekit-->
+  <script type="text/javascript" src="//use.typekit.net/ijo2bhz.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!--Facebook-->   
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Google Analytics--> 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   
+    ga('create', 'UA-40596501-1', 'gradea.co');
+    ga('send', 'pageview');
+  </script>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+
+
+<!--==============Navigation===============-->
+
+<!--Responsive Nav Lives here-->
+<div class="fixed">
+<div class="menu">
+<nav class="clearfix">
+    <ul class="clearfix">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="successstories.html">Success Stories</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a class="item" data-reveal-id="Morgan" href="#">Contact</a></li>
+    </ul>
+    <a href="#" id="pull"></a>
+    <div class="responsivelogo"><img src="img/logo.png"></div>
+  </nav>
+</div>
+</div>
+<!--/Responsive Nav-->
+
+
+<!--Start Regular Nav-->
+<div class="fixed">
+  <div class="navigation">
+    <div class="row"> 
+      <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="index.html" alt="Grade A Marketing"><img src="img/logo.png"></a></div></div>
+      <div class="large-8 columns text-center end">
+        <ul>
+          <li class="current"><a href="about.html">About</li></a>
+          <li><a href="services.html">Services</li></a>
+          <li><a href="successstories.html">Success Stories</li></a>
+          <li><a href="articles.html">Articles</li></a>
+          <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Regular Nav-->
+
+
+<!--==============Page Sections===============-->
+
+<!---Start Section One-->
+<div class="sectionone">
+<div class="row">
+<div class="large-8 large-centered columns"> 
+<h1>Grade A aligns with proven strategic partners to execute marketing initiatives and projects</h1>
+<p>These include printers, copywriters, designers, developers, video producers, and the best talent we need to deliver success</p>
+</div>
+</div>
+</div>
+
+
+<!--Start Section Two-->
+
+    <!--Parallax Image-->
+    <section id="introimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="intro" data-type="background" data-speed="10" class="pages anchorouter"><span id="atestimonials"></span>
+    <!--/Parallax Image-->
+
+  <div class="about">
+    <div class="row">
+    <div class="large-8 large-centered columns"> 
+      <h1><center>Grade A Leadership<center></h1>
+      <h3>Amanda Fischer, CEO of Grade A Marketing</h3>
+      <p>Amanda attended George Washington University in DC. While in college, Amanda worked at DC101 Radio, WB-Television (now CW), and Fleishman Hillard International Public Relations. After graduating with a degree in Communication, she held several high level directorial and management positions in business development and marketing. In December 2010, Amanda started her own cross-media marketing and consulting firm called Grade A Marketing. With a strong interest in the multidisciplinary art of persuasion, Amanda's desire to understand the many motivations of human behavior plays a major role in her approach to marketing.</p>
+      <p>In addition to being Grade A's CEO and driving force, Amanda is also co-founder of HD Happy Hour, an organization that, since 2009, has hosted over 40 networking events for business owners and executives in the DC area. She has been featured in many online and hard copy publications including Executive Travel Magazine, The Washington Business Journal and ABC's Washington Business Report.</p>
+      <h3> Connect with Amanda on <a href="#">Linkedin</a></h3>
+    </div>
+  </div>
+</div>
+<!--/Section Two-->
+
+<!--Start Section Three-->
+  <!--Parallax Image-->
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="atestimonials"></span>
+  <!--Parallax Image-->
+
+  <div class="values">
+    <div class="row">
+    <div class="large-8 large-centered columns"> 
+      <h1><center>Grade A Values<center></h1>
+      <p>We really like our clients and partners and believe in establishing long-term, quality relationships with a "give first" mentality.</p>
+      <p>We do a few things to make sure those relationships flourish:</p>
+        <!--Start Values List-->
+        <ol>
+          <li>We seize the opportunities that will benefit clients</li>
+          <li>We challenge traditional sales and marketing assumptions when there's a better way of doing something</li>
+          <li>We take responsibility for our decisions and stand behind our projects</li>
+          <li>We respect and appreciate our clients and partners and the opportunities we have to work together</li>
+        </ol> 
+    </div>
+    </div>
+    </div>
+<!--/Section Three-->
+
+
+<!--==============Footer Lives Here===============-->
+
+<!--Start Footer-->
+<footer>
+  <!--Start Top Footer-->
+    <div id="topfooter">
+      <div id="rule">
+        <h3>Keep it Fresh</h3>
+      </div>
+    </div><!--End Top Footer-->
+
+  <!--Start Bottom Footer-->
+    <div id="mainfooter">
+    <div class="row">
+      
+      <!--Left Side-->
+      <div class="large-offset-2 large-4 columns">
+        <center><a href="#"><button>Contact us</button></a>
+        <p>202-656-7765</p></center>
+     </div><!--/Left side-->
+
+      <!--Right Side-->
+      <div class="large-offset-1 large-4 columns end">
+        <div class="where">
+        <p>Grade A Marketing<br>
+        3865 Wilson Blvd, Suite 300<br>
+        Arlington, VA 22205</p>
+      </div>
+      </div><!--/Right Side-->
+    
+    </div>
+
+      <!--Copyright Text-->
+      <div class="row">
+      <div class="large-12 columns text-center">
+        <div class="copy">&#64;2013 Grade A Marketing LLC</div>
+      </div><!--/Bottom-->
+      </div><!--End Bottom Footer-->
+  
+  </div><!--/mainfooter-->
+
+</footer>
+<!--End Footer-->
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+<!-- Javascript at bottom for faster loading --> 
+<script src="http://code.jquery.com/jquery.js"></script>
+  <script src="menu.js"></script>
+<!--<script src="js/jquery.js"></script>-->
+
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+    <div id="Morgan" class="reveal-modal">
+  <h2>Awesome. I have it.</h2>
+  <p class="lead">Your couch.  It is mine.</p>
+  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+</body>
+</html>

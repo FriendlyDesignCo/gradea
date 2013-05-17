@@ -1,0 +1,81 @@
+
+/* General Overrides
+================================================== */
+h1{
+	text-align: left;
+	margin-bottom:none;
+}
+
+
+.about{
+	padding-top:40px;
+	padding-bottom:50px;
+}
+
+.values li{
+font-size:1em;
+list-style-position: inside;
+padding-bottom:20px;
+
+}
+
+.values{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.sectionone{
+	margin-top:160px;
+}
+
+.navigation{
+	background-color: white;
+}
+
+
+/* Parallax Styles
+================================================== */
+#introimg {
+	margin-top:20px;
+	background: url("../img/4.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 418px;
+}
+
+#valuesimg {
+	background: url("../img/3.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+/* Media Queries 
+================================================== */
+@media screen and (max-width: 480px) {
+	.where{
+		text-align: center;
+		padding-top:20px;
+	}
+ 	.values li{
+ 	font-size: 1em;
+	}
+
+	.values, .about{
+		padding-top:20px;
+	}
+ 
+}
+
+@media only screen and (max-device-width: 1024px){
+		#introimg{
+			margin-top: 30px;
+		}
+	}
+}
+

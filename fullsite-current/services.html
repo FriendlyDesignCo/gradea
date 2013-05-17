@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Grade A</title>
+
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="css/foundation.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="stylesheet" href="css/navstyles.css"/>
+
+<!--JS-->
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+<!--Typekit-->
+  <script type="text/javascript" src="//use.typekit.net/ijo2bhz.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!--Facebook-->   
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Google Analytics--> 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   
+    ga('create', 'UA-40596501-1', 'gradea.co');
+    ga('send', 'pageview');
+  </script>
+
+  <!--menu bar-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>
+    $(function() {
+      var pull    = $('#pull');
+        menu    = $('nav ul');
+        menuHeight  = menu.height();
+
+      $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+
+      $(window).resize(function(){
+            var w = $(window).width();
+            if(w > 320 && menu.is(':hidden')) {
+              menu.removeAttr('style');
+            }
+        });
+    });
+  </script>
+  
+
+<!--Favicon-->
+<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+<!--==============Navigation===============-->
+
+<!--Responsive Nav Lives here-->
+<div class="fixed">
+<div class="menu">
+<nav class="clearfix">
+    <ul class="clearfix">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="successstories.html">Success Stories</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a class="item" data-reveal-id="Morgan" href="#">Contact</a></li>
+    </ul>
+    <a href="#" id="pull"></a>
+    <div class="responsivelogo"><img src="img/logo.png"></div>
+  </nav>
+</div>
+</div>
+<!--/Responsive Nav-->
+
+
+<!--Regular Nav-->
+<div class="fixed">
+  <div class="navigation">
+    <div class="row"> 
+      <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="index.html" alt="Grade A Marketing"><img src="img/logo.png"></a></div></div>
+      <div class="large-8 columns text-center end">
+        <ul>
+          <li><a href="index.html">About</li></a>
+          <li class="current"><a href="services.html">Services</li></a>
+          <li><a href="successstories.html">Success Stories</li></a>
+          <li><a href="articles.html">Articles</li></a>
+          <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Regular Nav-->
+
+
+<!--==============Page Sections===============-->
+
+<!---Start Section One-->
+<div class="sectionone">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+      <div class="introduction">
+      <h1>Grade A specializes in marketing support for clients in complex professional service industries.</h1>
+      <p>These include printers, copywriters, designers, developers, video producers, and the best talent we need to deliver success</p>
+    </div>
+    </div>
+  </div>
+</div>
+<!--/Section One-->
+
+<!--Start Section Two-->
+<div class="sectiontwo">
+  <div class="row">
+    <div class="large-8 large-centered columns">
+      <h1><center>A Hybrid Approach</center></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-offset-2 large-6 columns">
+      <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach – Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+      </div>
+
+      <div class="large-2 columns end">
+      <div class="gray"><button><img src="img/form.png"><br>View Sample Engagement</button></div>
+      <button>Contact Us</button>
+      
+      </div> 
+  </div>
+</div>
+
+<!--Start Magellan Navigation-->
+<div data-magellan-expedition="fixed">
+    <dl class="sub-nav">
+    <dd data-magellan-arrival="marketing"><a href="#marketing">Marketing</a></dd>
+    <dd data-magellan-arrival="socialmedia"><a href="#socialmedia">Social Media</a></dd>
+    <dd data-magellan-arrival="web"><a href="#web">Web</a></dd>
+    <dd data-magellan-arrival="email"><a href="#email">Email</a></dd>
+    <dd data-magellan-arrival="communications"><a href="#communications">Communications</a></dd>
+    <dd data-magellan-arrival="publicrelations"><a href="#publicrelations">Public Relations</a></dd>
+    <dd data-magellan-arrival="sales"><a href="#sales">Sales</a></dd>
+    <dd data-magellan-arrival="sectioneight"><a href="#sectioneight">Section Eight</a></dd>
+  </dl>
+</div>
+<!--/Magellan Navigation-->
+
+<!--Start Marketing-->
+
+  <!--Parallax Image-->
+  <a name="marketing"></a>
+    <div data-magellan-destination="marketing">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Marketing</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!--/End Marketing-->
+
+<!--Start Social Media-->
+
+  <!--Parallax Image-->
+  <a name="socialmedia"></a>
+  <div data-magellan-destination="socialmedia">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Social Media</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!--/Social Media-->
+
+<!--Start Web-->
+  <!--Parallax Image-->
+
+  <a name="web"></a>
+  <div data-magellan-destination="web">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Web</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+     <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Web-->
+  
+<!--Start Email-->
+  <!--Parallax Image-->
+  <a name="email"></a>
+  <div data-magellan-destination="email">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Email</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Email-->
+  
+
+<!--Start Communications-->
+  <!--Parallax Image-->
+  <a name="communications"></a>
+  <div data-magellan-destination="communications">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Communications</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Communications-->
+  
+<!--Start Public Relations-->
+  <!--Parallax Image-->
+  <a name="publicrelations"></a>
+  <div data-magellan-destination="publicrelations">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+  <div class="service">
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+    <h2>Public Relations</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Public Relations-->
+
+<!--Start Sales-->
+
+  <!--Parallax Image-->
+  <a name="sales"></a>
+  <div data-magellan-destination="sales">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+       <div class="service">
+    <h2>Sales</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Section-->
+
+  
+
+<!--Start Section-->
+
+  <!--Parallax Image-->
+  <a name="sectioneight"></a>
+  <div data-magellan-destination="sectioneight">
+    <section id="valuesimg" data-type="background" data-speed="10" class="pages"></section>
+    <section id="values" data-type="background" data-speed="10" class="pages anchorouter"><span id="avalues"></span>
+  <!--/Parallax-->
+
+  <div class="row">
+    <div class="large-8 large-centered columns"> 
+       <div class="service">
+    <h2>Section</h2>
+    <p>Grade A’s hybrid approach integrates marketing, communications, PR and sales process to help companies captivate prospects, develop new business and maintain a satisfied client base. To make the most impact with your marketing, it’s imporatant to pay attention and work in conjunction with other disciplines. At Grade A, we call this the hybrid approach -- Where marketing, communications, public relations and sales efforts are reinforcing and supporting each other.</p>
+    <p class="medium">Explore these articles highlighting our marketing expertise:</p>
+    <ul>
+      <a href="#"><li>Ins and Outs of Niche Marketing</li></a>
+      <a href="#"><li>Sizing Up the Competition</li></a>
+      <a href="#"><li>Create a Brand that Sticks</li></a>
+      <a href="#"><li>Print that Performs</li></a>
+    </ul>
+    </div>
+  </div>
+</div>
+<!--/Section-->
+  
+
+
+  
+
+
+
+
+
+
+<!--==============Footer Lives Here===============-->
+
+<!--Start Footer-->
+<footer>
+  <!--Start Top Footer-->
+    <div id="topfooter">
+      <div id="rule">
+        <h3>Keep it Fresh</h3>
+      </div>
+    </div><!--End Top Footer-->
+
+  <!--Start Bottom Footer-->
+    <div id="mainfooter">
+    <div class="row">
+      
+      <!--Left Side-->
+      <div class="large-offset-2 large-4 columns">
+        <center><a href="#"><button>Contact us</button></a>
+        <p>202-656-7765</p></center>
+     </div><!--/Left side-->
+
+      <!--Right Side-->
+      <div class="large-offset-1 large-4 columns end">
+        <div class="where">
+        <p>Grade A Marketing<br>
+        3865 Wilson Blvd, Suite 300<br>
+        Arlington, VA 22205</p>
+      </div>
+      </div><!--/Right Side-->
+    
+    </div>
+
+      <!--Copyright Text-->
+      <div class="row">
+      <div class="large-12 columns text-center">
+        <div class="copy">&#64;2013 Grade A Marketing LLC</div>
+      </div><!--/Bottom-->
+      </div><!--End Bottom Footer-->
+  
+  </div><!--/mainfooter-->
+
+
+
+
+
+</footer>
+
+
+
+
+<!--==============Script===============-->
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>  
+
+<!-- Javascript at bottom for faster loading --> 
+<script src="http://code.jquery.com/jquery.js"></script>
+<!--<script src="js/jquery.js"></script>-->
+        <script src="js/actions.js"></script>
+  <script src="menu.js"></script>
+
+ 
+ 
+  <script src="js/foundation/foundation.js"></script>
+
+
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  -->
+  <script>
+    $(document).foundation();
+  </script>
+    <div id="Morgan" class="reveal-modal">
+  <h2>Awesome. I have it.</h2>
+  <p class="lead">Your couch.  It is mine.</p>
+  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+</body>
+</html>
+
+
+
