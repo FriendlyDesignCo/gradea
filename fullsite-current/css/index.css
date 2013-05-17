@@ -1,0 +1,136 @@
+
+.cover img{
+	width:100%;
+}
+.sectionone, .sectiontwo, .sectionthree{
+	padding-top:60px;
+	padding-bottom:75px;
+}
+
+
+/* Section Specific Styles
+================================================== */
+
+/*///Section Two Styles///*/
+.sectiontwo p{
+	font-size: .8em;
+	margin-bottom:10px;
+}
+
+.sectiontwo a{
+	font-size: .8em;
+	color:#C71949;
+	font-weight:normal;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+
+.topquote{
+	margin-bottom:25px;
+}
+
+.sectiontwo{
+	background: url("../img/quote-left.png") 10% center no-repeat, url("../img/quote-right.png") 90% center no-repeat;
+	display:inline-block;
+}
+
+.contact h3{
+	font-weight:normal;
+}
+.contact{
+	padding-top:40px;
+}
+
+/*/////Section Three Styles//////*/
+
+.sectionthree p{
+	font-size:1em;
+
+}
+
+.sectionthree button{
+	padding-top:30px;
+} 
+
+.viewall{
+	margin-top:60px;
+}
+
+/*//////Section Four Styles/////*/
+.sectionfour{
+	margin-bottom:80px;
+	margin-top:25px;
+}
+.twitter{
+	padding-top:10px;
+}
+
+
+/* Parallax Styles
+================================================== */
+#introimg {
+	background: url("../img/1.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+#clientsimg {
+	background: url("../img/2.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+#valuesimg {
+	background: url("../img/3.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+
+/* Media Queries 
+================================================== */
+@media screen and (max-width: 480px) {
+	.sectiontwo p{
+	font-size:1em;
+	margin-bottom:10px;
+	}
+
+	.topquote{
+	margin-bottom:none;
+	}
+
+	.contact{
+		padding-top:13px;
+	}
+	.sectionone, .sectiontwo, .sectionthree{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.sectionthree p{
+		margin-left:-20px;
+	}
+	.article2{
+		padding-top:35px;
+	}
+	.viewall{
+		margin-top:35px;
+	}
+	.where{
+		text-align: center;
+		padding-top:20px;
+	}
+
+}
