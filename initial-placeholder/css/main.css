@@ -1,0 +1,590 @@
+/* Grade A, main styles. */
+/* by FriendlyDesign.co */
+
+/* Table of Content
+==================================================
+	# General Styles
+	# Navigation Styles
+	# Parallax Styles
+	# Type Styles
+	# Media Queries
+	# Font Face 
+	# Footer
+
+
+/* # General Styles
+================================================== */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:"proxima-nova", helvetica, arial, sans-serif;
+}
+
+u {
+	text-decoration: underline;
+}
+
+a{
+	color:#C71949;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+
+}
+
+.intro {
+	margin-bottom: 50px;
+}
+.clients, .values, .leadership{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.calls {
+	margin-top: 50px;
+}
+
+.getsocial {
+	margin-bottom: 100px;
+}
+
+.anchorouter {
+	position:relative;
+}
+.anchorouter span {position:absolute; top:-100px;}
+
+#clients span{
+	top:-150px;
+}
+
+/* # Navigation Styles
+================================================== */
+.navbar .container {
+	margin: auto;
+	width:80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
+	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;	
+	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	margin-bottom:0px;
+}
+
+.nav.pull-right{
+	margin-top:25px;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #4D4D4D;
+}
+
+
+.nav.pull-right li a {
+	color: #4D4D4D;
+}
+
+.nav.pull-right li a:hover {
+	color: #C71949;
+	text-decoration: none;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar .navbar-inner{
+	background-color:none !important;
+}
+
+.white{
+	background-color:rgba(255, 255, 255, 1);
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+
+/* #Parallax Styles
+================================================== */
+img {
+	width: 100%;
+}
+#introimg {
+	background: url("../img/1.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+#clientsimg {
+	background: url("../img/2.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+#valuesimg {
+	background: url("../img/3.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+#leadershipimg {
+	background: url("../img/4.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 518px;
+}
+
+
+
+/* For jquery change, navigation bar */
+.whitebackground {
+	background-color: white;
+}
+/* #Type Styles
+================================================== */
+
+/* Note: different type styles are set by DOM section.*/
+p {
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #666666;
+	line-height: 2em;
+	margin-top: 50px;
+}
+
+.clients {
+	margin-top: 50px;
+}
+.clients p {
+	font-size: 1.25em;
+	margin-top: 20px;
+}
+.clients mark {
+	color: #C71949;
+	background-color: transparent;
+}
+#testimonials{
+	background: url("../img/quote-left.png") 10% center no-repeat, url("../img/quote-right.png") 90% center no-repeat;
+	display:inline-block;
+}
+/*#testimonials:before{
+	content:open-quote;
+	color:#F2F2F2;
+	font-size:120px;
+	height:0px;
+	width: 0px;
+}
+#testimonials:after{
+content:close-quote;
+	color:#F2F2F2;
+	font-size:120px;
+
+	}*/
+
+	.calls p.center {
+		clear: both;
+		margin-top: 20px;
+	}
+	.calls a {
+		font-size: 1.5em;
+		font-family:"proxima-nova", helvetica, sans-serif;
+	}
+
+
+	#values ul li{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: #666666;
+		line-height: 2em;
+	}
+
+
+	.leadership mark {
+		color: #C71949;
+		background-color: transparent;
+	}
+	a.btn-danger {
+		background: #C71949; /* Old browsers */
+		background: -moz-linear-gradient(top, #C71949 0%, #951337 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C71949), color-stop(100%,#951337)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #C71949 0%,#951337 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #C71949 0%,#951337 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #C71949 0%,#951337 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #C71949 0%,#951337 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C71949', endColorstr='#951337',GradientType=0 ); /* IE6-9 */
+		font-family: Georgia, serif;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 2em;
+		text-shadow: 0px -1px 1px #8C8C8C;
+		filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);
+		padding: 50px 5%;
+		-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+		box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
+		-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+	}
+	.btn-danger:hover {
+		background: #951337; /* Old browsers */
+		background: -moz-linear-gradient(top, #951337 0%, #C71949 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#951337), color-stop(100%,#C71949)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #951337 0%,#C71949 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #951337 0%,#C71949 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #951337 0%,#C71949 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #951337 0%,#C71949 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#951337', endColorstr='#C71949',GradientType=0 ); /* IE6-9 */
+	}
+
+	.btn-danger:active {
+		background: #951337; 
+
+	}
+
+
+	h1{
+		font-size: 4em;
+		line-height: 1.2em;
+		text-align: center;
+		font-weight:normal;
+		color:#000;
+	}
+
+
+/* # @Font-Face
+================================================== */
+
+
+/* # Header
+================================================== */
+.maintitle{
+	text-align: center;
+	padding-top:75px;
+	color: #666666;
+	font-family: Georgia, serif;
+	font-style: italic;
+	padding-bottom: 75px;
+}
+
+/* # Modal
+================================================== */
+.modal{
+	background-color: #F2F2F2;
+	border: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+
+}
+
+
+h3#myModalLabel{
+	font-family: georgia, serif;
+	font-size: 2em;
+	text-align: center;
+	font-style: italic;
+	color: #666666;
+}
+
+button.btn-danger {
+	background: #C71949; /* Old browsers */
+	background: -moz-linear-gradient(top, #C71949 0%, #951337 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C71949), color-stop(100%,#951337)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #C71949 0%,#951337 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #C71949 0%,#951337 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #C71949 0%,#951337 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #C71949 0%,#951337 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C71949', endColorstr='#951337',GradientType=0 ); /* IE6-9 */
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 0px -1px 1px #8C8C8C;
+	filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);
+	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
+	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+}
+
+.modal-header{
+	border: none;
+	text-size: 3em;
+}
+
+/* # Socialize
+================================================== */
+
+.fb-like-box, .fb-like-box iframe, .fb_iframe_widget span{
+	width:95% !important;
+}
+
+.getsocial .span6{
+	max-width:95%;
+}
+
+/* # Footer
+================================================== */
+
+footer{
+	background:#E6E6E6;
+	padding:0 0 50px;
+}
+
+#topfooter {
+	text-align: center;
+	background-color: #b3b3b3;
+	padding:60px 40px 40px 40px;
+	height: 100%;
+	font-family: georgia, serif;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+
+#rule {
+	border-top: #E6E6E6 1px solid;
+	width: 100%;
+	z-index: 0;
+	text-align: center;
+}
+
+#rule h3{
+	padding: 0;
+	background-color: #b3b3b3;
+	color: #E6E6E6;
+	text-align: center;
+	z-index: 100;
+	max-width: 200px;
+	margin:-20px auto 0 auto;
+}
+
+#mainfooter {
+	background-color: #E6E6E6;
+	color: #666;
+	text-align: center;
+	height: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#mainfooter p{
+	margin: 0px;
+	padding:0;
+	font-size:1.2em;
+}
+
+#mainfooter a.btn-danger{
+	padding:25px 15%;
+	font-size:1.1em;
+	margin-bottom:10px;
+}
+
+#mainfooter .address{
+	text-align:left;
+}
+
+.copy {
+	color: #B3B3B3;
+	font-size: .8em;
+	text-align: center;
+}
+
+
+/* # Media Queries
+================================================== */
+@media screen and (max-width: 1024px) {
+	#introimg {
+		background: url("../img/1.jpg") no-repeat center top fixed;
+		min-height: 518px;
+	}
+
+	#clientsimg {
+		background: url("../img/2.jpg") no-repeat center top fixed;
+		min-height: 518px;
+	}
+
+	#valuesimg {
+		background: url("../img/3.jpg") no-repeat center center fixed;
+		min-height: 518px;
+	}
+
+	#leadershipimg {
+		background: url("../img/4.jpg") no-repeat center top fixed;
+		min-height: 518px;
+	}
+
+}
+@media screen and (max-width: 970px) {
+	#introimg, #clientsimg, #valuesimg, #leadershipimg{
+		background-attachment: scroll;
+		background-color:#cccccc;
+		min-height:400px;
+	}
+
+	.navbar.navbar-fixed-top {
+		margin-bottom: 0px !important;
+		position:fixed !important;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+	.maintitle{
+		text-align: center;
+		padding-top:50px;
+	}
+	.navbar .nav.pull-right{
+		font-size:1em;
+	}
+
+
+}
+@media screen and (max-width: 800px) {
+	.navbar .nav.pull-right{
+		font-size:1em;
+	}
+	.navbar-inner .container{
+		padding-top:0px;
+		padding-bottom:0px;
+		width:90%;
+	}
+	.navbar .nav > li > a{
+		padding:5px 10%;
+	}
+	html body, body{
+		padding:0 !important;
+		width:100%;
+	}
+	p, h1, mark {
+		padding-left:20px;
+		padding-right:20px;
+		margin-top:25px;
+	}
+	p mark{
+		padding-left:0;
+	}
+	a.btn-danger{
+		font-size:1em;
+		padding:25px 5%;
+	}
+	section ol li, section ul li{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#introimg, #clientsimg, #valuesimg, #leadershipimg{
+		min-height:320px;
+	}
+	#mainfooter .span4 {
+		text-align: center;
+	}
+
+	#leadershipimg{
+		background-position:center 30%;
+	}
+
+
+}
+@media screen and (max-width: 767px) {
+	#mainfooter .address{
+		margin-top:30px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.navbar .navbar-inner .container{
+		width:95% !important;
+
+	}
+	.navbar a.brand {
+		width:160px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.navbar .nav.pull-right{
+		float:none !important;
+		clear:both;
+		width:100%;
+		margin:0 auto;
+	}
+	.navbar .nav.pull-right li{
+		width:25%;
+		text-align: center;
+		font-size:0.75em;
+		display:inline-block;
+	}
+	.navbar .brand{
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	.brand img{
+		max-width:200px;
+	}
+	.row-fluid {
+		padding: 0 0 20px;
+	}
+
+	h1{
+		font-size:2.5em;
+	}
+	p, #values ul li{
+		font-size:1em;
+	}
+	#values ul li{
+		margin-left:15px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.navbar.navbar-fixed-top {
+		position:static;
+	}
+}
+
+/* iPad Fixes */
+@media only screen and (max-device-width: 1024px){
+	#introimg, #clientsimg, #valuesimg, #leadershipimg { 
+		-webkit-background-size: 1099px 618px;
+		background-attachment: scroll;
+	}
+
+}
+
+/* iPhone Fixes */
+@media only screen and (max-device-width: 480px){
+	#introimg, #clientsimg, #valuesimg, #leadershipimg { 
+		-webkit-background-size: cover;
+	}
+	#testimonials{
+	background: none;
+}
+}
