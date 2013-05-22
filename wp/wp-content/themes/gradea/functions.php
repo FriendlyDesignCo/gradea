@@ -27,12 +27,14 @@ if( !function_exists( "theme_js" ) )
     wp_register_script('foundation', get_template_directory_uri() . '/js/foundation.min.js', array(), '4.0.0', true);
     wp_register_script('actions', get_template_directory_uri() . '/js/actions.js', array(), '1.0', true);
     wp_register_script('foundation.reveal', get_template_directory_uri() . '/js/foundation/foundation.reveal.js', array('foundation'), '4.0.0', true);
+    wp_register_script('foundation.magellan', get_template_directory_uri() . '/js/foundation/foundation.magellan.js', array('foundation'), '4.0.0', true);
     
     // Enqueue
     wp_enqueue_script('modernizr');
     wp_enqueue_script('foundation');
     wp_enqueue_script('actions');
     wp_enqueue_script('foundation.reveal');
+    wp_enqueue_script('foundation.magellan');
   }
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' );
@@ -62,3 +64,25 @@ function register_my_menu()
   register_nav_menu('header-menu',__( 'Header Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+function slugify ($text)
+{
+  // replace non letter or digits by -
+  $text = preg_replace('~[^\pLd]+~u', '-', $text);
+  // trim
+  $text = trim($text, '-');
+  // transliterate
+  if (function_exists('iconv')) {
+    $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+  }
+  // lowercase
+  $text = strtolower($text);
+  // remove unwanted characters
+  $text = preg_replace('~[^-w]+~', '', $text);
+  // default output
+  if (empty($text)) {
+    return 'n-a';
+  }
+ 
+  return $text;
+}
