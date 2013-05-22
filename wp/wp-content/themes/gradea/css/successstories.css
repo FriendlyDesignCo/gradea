@@ -1,0 +1,6 @@
+.logos li{
+display:inline-block;
+-webkit-box-shadow: 2px 2px 11px rgba(50, 50, 50, 0.28);
+-moz-box-shadow:    2px 2px 11px rgba(50, 50, 50, 0.28);
+box-shadow:         2px 2px 11px rgba(50, 50, 50, 0.28);
+}

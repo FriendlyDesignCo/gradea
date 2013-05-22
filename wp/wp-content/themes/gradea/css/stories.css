@@ -1,0 +1,59 @@
+.logos img{	
+-webkit-box-shadow: 2px 2px 11px rgba(50, 50, 50, 0.28);
+-moz-box-shadow:    2px 2px 11px rgba(50, 50, 50, 0.28);
+box-shadow:         2px 2px 11px rgba(50, 50, 50, 0.28);
+display:inline;
+height:auto;
+}
+
+.logos img a:hover{	
+border:1px #C71949 solid;
+}
+
+.content{
+	margin-top:130px;
+}
+.pullquote{
+	font-size:1.5em;
+	line-height: 1.2em;
+	color:#000000;
+	padding-left:50px;
+	padding-right:50px;
+
+}
+
+.pullquote p{
+	padding-bottom:none;
+	margin-bottom:none;
+}
+
+.cite{
+	font-size:1em;
+	color:#C71949;
+	margin-top:0px;
+	padding-top:0px;
+	padding-bottom:20px;
+	padding-left:50px;
+}
+
+p{
+	font-size: .8em;
+}
+
+.intro p{
+	font-size:1em;
+	padding-top:30px;
+}
+
+h1{
+	text-align: left;
+	padding-top:50px;
+}
+
+.content{
+	margin-top:180px;
+	margin-bottom:110px;
+}
+.navigation{
+	background-color:white;
+}
