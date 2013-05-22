@@ -77,11 +77,8 @@
 <div class="menu">
 <nav class="clearfix">
     <ul class="clearfix">
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="successstories.html">Success Stories</a></li>
-      <li><a href="articles.html">Articles</a></li>
-      <li><a href="#" data-reveal-id="Morgan">Contact</a></li>
+      <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
+      <li><a class="item" data-reveal-id="contact" href="#">Contact</li></a>
     </ul>
     <a href="#" id="pull"></a>
     <div class="responsivelogo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
@@ -95,14 +92,11 @@
 <div class="fixed">
   <div class="navigation">
     <div class="row"> 
-      <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="index.html" alt="Grade A Marketing"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a></div></div>
+      <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="/" alt="Grade A Marketing"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a></div></div>
       <div class="large-8 columns text-center end">
         <ul>
-          <li><a href="index.html">About</li></a>
-          <li><a href="services.html">Services</li></a>
-          <li><a href="successstories.html">Success Stories</li></a>
-          <li><a href="articles.html">Articles</li></a>
-          <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
+          <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
+          <li><a class="item" data-reveal-id="contact" href="#">Contact</li></a>
         </ul>
       </div>
     </div>
