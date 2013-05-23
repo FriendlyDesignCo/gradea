@@ -25,19 +25,17 @@ padding-bottom:20px;
 }
 
 .sectionone{
-	margin-top:160px;
+	margin-top:40px;
 }
 
 .navigation{
-	background-color: white;
 }
 
 
 /* Parallax Styles
 ================================================== */
 #introimg {
-	margin-top:20px;
-	background: url("../img/4.jpg") no-repeat center fixed;
+	background: url("../img/4.jpg") no-repeat center -200px fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

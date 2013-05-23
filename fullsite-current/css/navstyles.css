@@ -63,9 +63,11 @@ nav a#pull {
 }
 
 .responsivelogo{
-	padding-left:80px;
 	padding-bottom:30px;
 	padding-top:20px;
+	width:100%;
+	text-align:center;
+	display:none;
 }
 
 /*Styles for screen 600px and lower*/
@@ -94,6 +96,12 @@ nav a#pull {
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 480px) {
+		
+	.responsivelogo{
+		display:block;
+		background-color:#fff;
+	}
+
 	nav {
 	border-bottom: 0;
 	background-color:#F2F2F2;
@@ -132,6 +140,7 @@ nav a#pull {
 		position: absolute;
 		right: 15px;
 		top: 10px;
+				color:#666666;
 
 	}
 }
@@ -145,6 +154,9 @@ nav a#pull {
 	}
 	nav li a {
 		border-bottom: 1px solid #576979;
+	}
+	nav li:first-child {
+		border-top: 1px solid #576979;
 	}
 }
 

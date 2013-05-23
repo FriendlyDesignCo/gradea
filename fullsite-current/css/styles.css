@@ -68,6 +68,21 @@ a:hover{
 	transition: 0.2s ease-in-out 0s;
 }
 
+.pullquote{
+	font-size:1.5em;
+	line-height: 1.2em;
+	color:#000000;
+	padding-left:70px;
+	padding-right:70px;
+	background: url("../img/quote-left.png") left top no-repeat, url("../img/quote-right.png") right bottom no-repeat;
+}
+
+.pullquote p{
+	padding-bottom:none;
+	margin-bottom:none;
+}
+
+
 /*///White Background for scrolling///*/
 .white{
 	background-color:rgba(255, 255, 255, 1) !important;
@@ -89,28 +104,34 @@ a:hover{
 	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
 	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;	
 	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.75);
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
-	height:130px;
-	padding-top:30px;
+	padding-top:20px;
+	padding-bottom:5px;
 	font-family: 'proxima nova',arial,sans-serif;
-	z-index:100;
 } 
 
-.logo{
-	padding-top:10px;
-}
 /*///Navigation Type Styles///*/
 .navigation ul{
-	font-size: .9em;
+	font-size: .8em;
 	font-weight: 500;
 	display:inline-block;
-	padding-top:50px;
+	padding-top:28px;
+	clear:none;
 
 }
+
+.navigation li{
+	display:inline-block;
+	padding-right:18px;
+}
+.navigation li:last-child{
+	padding-right:0;
+}
+
 .navigation a{
 	color:#4D4D4D;
 	text-decoration:none;
@@ -122,6 +143,9 @@ a:hover{
 .navigation a:hover{
 	color: #C71949;
 }
+
+
+
 
 
 
@@ -243,50 +267,6 @@ button:active {
 
 
 
-/* Navigation Styles
-================================================== */
-.navigation {
-	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
-	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;	
-	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25) !important;
-	background-color: rgba(255,255,255,0.5);
-	-webkit-transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	padding-bottom:5px;
-	padding-top:20px;
-	font-family: 'proxima nova',arial,sans-serif;
-} 
-
-/*///Navigation Type Styles///*/
-.navigation ul{
-	font-size: .85em;
-	font-weight: 500;
-	display:inline-block;
-	padding-top:28px;
-	clear:none;
-
-}
-
-.navigation li{
-	display:inline-block;
-	padding-right:10px;
-}
-
-.navigation a{
-	color:#4D4D4D;
-	text-decoration:none;
-	-moz-transition: 0.2s ease-in-out 0s;
-	-webkit-transition: 0.2s ease-in-out 0s;
-	-o-transition: 0.2s ease-in-out 0s;
-	transition: 0.2s ease-in-out 0s;
-}
-.navigation a:hover{
-	color: #C71949;
-}
-
-
 
 
 
@@ -300,6 +280,9 @@ button:active {
 @media screen and (max-width: 760px) {
 	.navigation ul{
 		font-size:.8em;
+	}
+	.navigation {
+		padding-top:10px;
 	}
 }
 
@@ -347,6 +330,13 @@ button:active {
 	.article2{
 		padding-top:35px;
 	}
+
+	.pullquote{
+		padding-left:20px;
+		padding-right:20px;
+		background:none;
+	}
+}
 
 
 /*//////////////////////////////////////////////////
@@ -412,7 +402,7 @@ button:active {
 		padding:0 !important;
 		width:100%;
 	}
-	p, h1, mark {
+	p, h1, mark, h2, h6 {
 		padding-left:20px;
 		padding-right:20px;
 		margin-top:25px;
@@ -438,6 +428,7 @@ button:active {
 	#leadershipimg{
 		background-position:center 30%;
 	}
+
 
 
 }
