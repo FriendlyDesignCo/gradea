@@ -52,11 +52,11 @@ a{
 	text-decoration: underline;
 }
 
-.current{
+.current, .current-menu-item {
 	color: #7a132f;
 }
 
-li.current a{
+li.current a, li.current-menu-item a{
 	color: #C71949;
 }
 
