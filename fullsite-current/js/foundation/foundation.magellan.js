@@ -80,15 +80,16 @@
               $expedition.data("magellan-fixed-position", fixed_position);
               if (fixed_position) {
                 //Locked in
-                $expedition.css({position:"fixed", top:0});
-                $('.sectiontwo').css("padding-bottom", "160px");
+                $expedition.addClass("fixing");
+                $('.sectiontwo').addClass("fixprep");
               } else {
                 //reverts from locking in
-                $expedition.css({position:"", top:""});
-                $('.sectiontwo').css("padding-bottom", "0px");
+                $expedition.removeClass("fixing");
+                $('.sectiontwo').removeClass("fixprep");
               }
               if (fixed_position && typeof attr != 'undefined' && attr != false) {
-                $expedition.css({position:"fixed", top:attr + "px"});
+                //$expedition.css({position:"fixed", top:attr + "px"});
+                $expedition.addClass("fixing");
               }
             }
           });
