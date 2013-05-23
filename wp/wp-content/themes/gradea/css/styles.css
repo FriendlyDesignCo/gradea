@@ -1,4 +1,4 @@
-x
+
 /* Overall Styles
 ================================================== */
 body{
@@ -69,17 +69,17 @@ a:hover{
 }
 
 .pullquote{
-  font-size:1.5em;
-  line-height: 1.2em;
-  color:#000000;
-  padding-left:70px;
-  padding-right:70px;
-  background: url("../img/quote-left.png") left top no-repeat, url("../img/quote-right.png") right bottom no-repeat;
+	font-size:1.5em;
+	line-height: 1.2em;
+	color:#000000;
+	padding-left:70px;
+	padding-right:70px;
+	background: url("../img/quote-left.png") left top no-repeat, url("../img/quote-right.png") right bottom no-repeat;
 }
 
 .pullquote p{
-  padding-bottom:none;
-  margin-bottom:none;
+	padding-bottom:none;
+	margin-bottom:none;
 }
 
 
@@ -109,8 +109,8 @@ a:hover{
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
-  padding-top:20px;
-  padding-bottom:5px;
+	padding-top:20px;
+	padding-bottom:5px;
 	font-family: 'proxima nova',arial,sans-serif;
 } 
 
@@ -120,16 +120,16 @@ a:hover{
 	font-weight: 500;
 	display:inline-block;
 	padding-top:28px;
-  clear:none;
+	clear:none;
 
 }
 
 .navigation li{
-  display:inline-block;
-  padding-right:18px;
+	display:inline-block;
+	padding-right:18px;
 }
 .navigation li:last-child{
-  padding-right:0;
+	padding-right:0;
 }
 
 .navigation a{
@@ -281,9 +281,9 @@ button:active {
 	.navigation ul{
 		font-size:.8em;
 	}
-  .navigation {
-    padding-top:10px;
-  }
+	.navigation {
+		padding-top:10px;
+	}
 }
 
 @media only screen and (max-device-width: 1024px){
@@ -331,11 +331,11 @@ button:active {
 		padding-top:35px;
 	}
 
-  .pullquote{
-    padding-left:20px;
-    padding-right:20px;
-    background:none;
-  }
+	.pullquote{
+		padding-left:20px;
+		padding-right:20px;
+		background:none;
+	}
 }
 
 

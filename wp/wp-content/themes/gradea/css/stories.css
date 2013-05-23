@@ -1,47 +1,48 @@
 
 .logos img{	
-  -webkit-box-shadow: 2px 2px 11px rgba(50, 50, 50, 0.28);
-  -moz-box-shadow:    2px 2px 11px rgba(50, 50, 50, 0.28);
-  box-shadow:         2px 2px 11px rgba(50, 50, 50, 0.28);
-  display:inline;
-  height:auto;
-  border:1px #fff solid;
+-webkit-box-shadow: 2px 2px 11px rgba(50, 50, 50, 0.28);
+-moz-box-shadow:    2px 2px 11px rgba(50, 50, 50, 0.28);
+box-shadow:         2px 2px 11px rgba(50, 50, 50, 0.28);
+display:inline;
+height:auto;
+border:1px #fff solid;
 }
 
 .logos a:hover img{	
-  border:1px #C71949 solid;
+border:1px #C71949 solid;
+}
+.logos .selected:hover img{
+	margin:-1px;
 }
 
-.logos .selected:hover img{
-  margin:-1px;
-}
 .selected img{
-  border:1px #C71949 solid;
-  margin:-1px;
-  position:relative;
-  top:1px;
+	border:1px #C71949 solid;
+	margin:-1px;
+	position:relative;
+	top:1px;
 }
 .selected{
-  position:relative;
-  display: block;
+	position:relative;
+	display: block;
 }
 .selected:after{
-  top: 100%;
-  display:block;
-  content:" ";
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #f00;
-  width:0;
-  left:-10px;
-  position:absolute;
-  margin:20px 0 0 50%;
+	top: 100%;
+	display:block;
+	content:" ";
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #f00;
+	width:0;
+	left:-10px;
+	position:absolute;
+	margin:20px 0 0 50%;
 }
+
 
 
 
 .content{
-  margin-top:130px;
+	margin-top:130px;
 }
 
 .cite{

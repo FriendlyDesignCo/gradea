@@ -63,7 +63,7 @@
 	margin-top:25px;
 }
 .twitter{
-	padding-top:15px;
+	padding:15px;
 }
 
 
@@ -103,9 +103,9 @@
 /* Media Queries 
 ================================================== */
 @media screen and (max-width: 767px) {
-  .sectiontwo{
-    background:none;
-  }
+	.sectiontwo{
+		background:none;
+	}
 
 }
 
