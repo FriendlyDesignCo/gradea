@@ -18,6 +18,7 @@ get_header();
 
 <!--==============Page Sections===============-->
 
+<section id="introimg" data-type="background" data-speed="10" class="pages"></section>
 <!--Start Section 1-->
 <div class="sectionone">
   <div class="row">

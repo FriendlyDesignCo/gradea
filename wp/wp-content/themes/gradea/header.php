@@ -81,7 +81,6 @@
       <li><a class="item" data-reveal-id="contact" href="#">Contact</li></a>
     </ul>
     <a href="#" id="pull"></a>
-    <div class="responsivelogo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
   </nav>
 </div>
 </div>

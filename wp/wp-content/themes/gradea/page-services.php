@@ -70,13 +70,13 @@ function section_order_cmp($a, $b)
 ?>
 
 <!--Start Magellan Navigation-->
-<div data-magellan-expedition="fixed">
-    <dl class="sub-nav">
+<div class="row"><div data-magellan-expedition="fixed" id="lower-nav" class="">
+    <dl class="sub-nav large-8 columns text-center end">
     <?php foreach ($sections as $section): ?>
       <dd data-magellan-arrival="<?php echo $section->post_name; ?>"><a href="#<?php echo $section->post_name; ?>"><?php echo $section->post_title; ?></a></dd>
     <?php endforeach; ?>
   </dl>
-</div>
+</div></div>
 <!--/Magellan Navigation-->
 
 <!-- Magellan Sections -->
