@@ -138,27 +138,27 @@ get_header();
 <!--Start Section Four-->
 <div class="sectionfour">
   <div class="row">
-  <div class="large-9 large-centered columns"> 
-    <h1>Let's Get Social</h1>
-  </div>
+    <div class="large-9 large-centered columns"> 
+      <h1>Let's Get Social</h1>
+    </div>
   </div>
 
-<!--Start Twitter-->
-<div class="row">
-<div class="large-offset-1 large-5-columns">
-  <div class="twitter">
-    <a class="twitter-timeline" href="https://twitter.com/GradeAfresh" data-widget-id="325364577598574593">Tweets by @GradeAfresh</a> 
+  <!--Start Twitter-->
+  <div class="row">
+    <div class="large-offset-1 large-5-columns">
+      <div class="twitter">
+        <a class="twitter-timeline" href="https://twitter.com/GradeAfresh" data-widget-id="325364577598574593">Tweets by @GradeAfresh</a> 
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
-  </div>
-</div>
-<!--End Twitter-->
+      </div>
+    </div>
+    <!--End Twitter-->
 
-<!--Start Facebook-->
-<div class="large-5-columns end">
-<div class="fb-like-box" data-href="http://www.facebook.com/GradeAFresh" data-width="292" data-show-faces="true" data-stream="true" data-border-color="#dddddd" data-header="false"></div>
-</div>
-</div>
-<!--End Facebook-->
+    <!--Start Facebook-->
+    <div class="large-5-columns end">
+      <div class="fb-like-box" data-href="http://www.facebook.com/GradeAFresh" data-width="292" data-show-faces="true" data-stream="true" data-border-color="#dddddd" data-header="false"></div>
+    </div>
+  </div>
+  <!--End Facebook-->
 </div>
 <!--/Section Four-->
 

@@ -1,5 +1,8 @@
 <?php
 
+// Some theme features
+add_theme_support('post-thumbnails');
+
 // CSS
 if( !function_exists("theme_styles") ) 
 {  
@@ -86,3 +89,16 @@ function slugify ($text)
  
   return $text;
 }
+
+// Gotta custom style some post stuff
+add_filter('the_content', function($content) { 
+  // Handle pullquotes out of <cite> tags
+  $newContent = preg_replace('/<cite title="(.*?)">(.*?)<\/cite>/', '<div class="pullquote">\\2</div><div class="cite">\\1</div>', $content);
+  // Handle the intro
+  if (stristr($newContent, '<span id="more-'))
+  {
+    return preg_replace('/<p>(.*)<span id="more-(\d+)"><\/span>/', '<p class="intro">\\1', $newContent);
+  }
+  else
+    return $newContent;
+});
