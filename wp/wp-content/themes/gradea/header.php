@@ -77,7 +77,7 @@
 <nav class="clearfix">
     <ul class="clearfix">
       <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
-      <li><a class="item" data-reveal-id="contact" href="#">Contact</li></a>
+      <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
     </ul>
     <a href="#" id="pull"></a>
   </nav>
@@ -94,7 +94,7 @@
       <div class="large-8 columns text-center end">
         <ul>
           <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
-          <li><a class="item" data-reveal-id="contact" href="#">Contact</li></a>
+          <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
         </ul>
       </div>
     </div>
