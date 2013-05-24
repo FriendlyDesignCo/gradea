@@ -242,7 +242,7 @@ footer{
 
 /* Buttons
 ================================================== */
-button{
+button, #contactSubmit {
 	background: #C71949; /* Old browsers */
 	background: -moz-linear-gradient(top, #C71949 0%, #951337 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C71949), color-stop(100%,#951337)); /* Chrome,Safari4+ */
@@ -269,7 +269,7 @@ button{
 }
 
 
-button:hover {
+button:hover, #contactSubmit:hover {
 		background: #951337; /* Old browsers */
 		background: -moz-linear-gradient(top, #951337 0%, #C71949 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#951337), color-stop(100%,#C71949)); /* Chrome,Safari4+ */
@@ -280,7 +280,7 @@ button:hover {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#951337', endColorstr='#C71949',GradientType=0 ); /* IE6-9 */
 	}
 
-button:active {
+button:active, #contactSubmit:active {
 		background: #951337; 
 
 	}
