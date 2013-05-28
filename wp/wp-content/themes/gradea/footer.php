@@ -11,20 +11,20 @@
 
   <!--Start Bottom Footer-->
     <div id="mainfooter">
-    <div class="row">
+    <div class="row" itemscope itemtype="http://schema.org/Organization">
       
       <!--Left Side-->
       <div class="large-offset-2 large-4 columns">
         <center><a href="#" data-reveal-id="Morgan"><button>Contact us</button></a>
-        <p>202-656-7765</p></center>
+        <p><span itemprop="telephone">202-656-7765</span></p></center>
      </div><!--/Left side-->
 
       <!--Right Side-->
       <div class="large-offset-1 large-4 columns end">
         <div class="where">
-        <p>Grade A Marketing<br>
-        3865 Wilson Blvd, Suite 300<br>
-        Arlington, VA 22205</p>
+        <p><span itemprop="name">Grade A Marketing</span><br>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">3865 Wilson Blvd, Suite 300</span><br>
+        <span itemprop="addressLocality">Arlington, VA</span> <span itemprop="postalCode">22205</span></span></p>
       </div>
       </div><!--/Right Side-->
     
