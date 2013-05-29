@@ -54,7 +54,7 @@ get_header();
     <div class="row">
       <div class="large-8 large-offset-2 columns">
         <?php the_content(); ?>
-        <center><a href="#"><button>Continue the Conversation on Twitter</button></a></center>
+        <center><a href="https://twitter.com/intent/tweet?url=<?php echo urlencode(get_permalink()); ?>&via=GradeAfresh"><button>Continue the Conversation on Twitter</button></a></center>
       </div>
     </div>
   </div>
