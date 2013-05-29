@@ -49,7 +49,7 @@ get_header();
 
       <div class="large-2 columns end">
       <div class="gray"><button><img src="<?php echo get_template_directory_uri(); ?>/img/form.png"><br>View Sample Engagement</button></div>
-      <button>Contact Us</button>
+      <button data-reveal-id="Morgan">Contact Us</button>
       
       </div> 
   </div>

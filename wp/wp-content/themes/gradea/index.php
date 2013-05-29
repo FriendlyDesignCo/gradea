@@ -76,7 +76,7 @@ get_header();
     <div class="large-12 columns text-center">
       <div class="contact">
         <p>Explore working with Grade A on your next marketing challenge:</p>
-        <button>Contact us here</button><br>
+        <button data-reveal-id="Morgan">Contact us here</button><br>
         <h3><a href="http://eepurl.com/hZEm2" class="center">Then sign up for our email updates</a></h3>
   </div></div></div>
 <!--End Contact Area-->
@@ -125,7 +125,7 @@ get_header();
 <div class="row">
 <div class="viewall">
   <div class="large-12 columns text-center">
-    <a href="articles.html"><button>View All Articles</button><br></a>
+    <a href="/articles/"><button>View All Articles</button><br></a>
   </div>
 </div>
 </div>
