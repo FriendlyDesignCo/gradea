@@ -99,23 +99,28 @@ get_header();
   </div>
 </div>
 
+<?php
+$recent = new WP_Query();
+$recent->query('showposts=2,post_type=post');
+$recent->the_post(); ?>
 <!--Article One-->
 <div class="row">
   <div class="large-offset-1 large-5 columns">
-    <h2>Market Power</h2>
-    <div class="panel"></div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem ligula, dignissim non congue eu, tincidunt nec justo. Mauris cursus ultricies vulputate. In metus magna, malesuada pulvinar consectetur.</p>
-    <a href="#">Read More</a>
+    <h2><?php the_title(); ?></h2>
+    <div class="panel"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
+    <?php global $more; $more = 0; the_content(' '); $more = 1;?>
+    <a href="<?php the_permalink(); ?>">Read More</a>
 </div>
 <!--/Article One-->
 
+<?php $recent->the_post(); ?>
 <!--Article Two-->
   <div class="large-5 columns end">
     <div class="article2">
-    <h2>Just Brand It</h2>
-    <div class="panel"></div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem ligula, dignissim non congue eu, tincidunt nec justo. Mauris cursus ultricies vulputate. In metus magna, malesuada pulvinar consectetur.</p>
-    <a href="#">Read More</a>
+    <h2><?php the_title(); ?></h2>
+    <div class="panel"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
+    <?php global $more; $more = 0; the_content(' '); $more = 1;?>
+    <a href="<?php the_permalink(); ?>">Read More</a>
 </div>
 </div>
 </div>
