@@ -28,20 +28,20 @@ get_header();
     </div>
       <div class="row">
         <?php if (has_post_thumbnail()): ?>
-          <div class="large-5 columns">
+          <div class="large-4 offset-1 columns">
             <?php the_post_thumbnail('thumbnail'); ?>
           </div>
-          <div class="large-7 columns">
+          <div class="large-6 columns">
             <?php the_content('Read More'); ?>
             <?php the_tags('<ul><li class="tag">','</li><li class="tag">','</li></ul>'); ?>
           </div>
         <?php else: ?>
-          <div class="large-12 columns">
+          <div class="large-10 columns">
             <?php the_content('Read More'); ?>
           </div>
         <?php endif; ?>
     </div>
-    <div class="row"><div class="large-12 columns centered">
+    <div class="row"><div class="large-10 columns centered">
     <div class="rule"></div>
   </div></div>
   </div>
