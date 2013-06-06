@@ -100,7 +100,7 @@
     </div>
   </div>
   
-  <?php if(is_home() || is_category() || is_tag()): ?>
+  <?php if(is_home() || is_category() || is_tag() || is_search()): ?>
     <!--Start Secondary Nav-->
     <div class="secondarynav">
     
