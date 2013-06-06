@@ -122,6 +122,7 @@
             </div>
           </div>
           <!--/Dropdown Buttons-->
+          <div class="search"><?php get_search_form(); ?></div>
         </div>
     
     
