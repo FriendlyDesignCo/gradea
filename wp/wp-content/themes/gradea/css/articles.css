@@ -8,6 +8,14 @@ h1{
 h2{
 	padding-bottom:20px;
 }
+h2 a{
+	color:#000;
+	text-decoration:none;
+	font-weight:600;
+}
+h2 a:hover{
+}
+
 .article{
 	padding-top:50px;
 }
