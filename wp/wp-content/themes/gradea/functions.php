@@ -102,3 +102,14 @@ add_filter('the_content', function($content) {
   else
     return $newContent;
 });
+
+// Ignore pages in search results
+function search_filter($query) {
+  if ( !is_admin() && $query->is_main_query() ) {
+    if ($query->is_search) {
+      $query->set('post_type', 'post');
+    }
+  }
+}
+
+add_action('pre_get_posts','search_filter');
