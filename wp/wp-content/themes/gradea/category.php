@@ -23,7 +23,7 @@ get_header();
   <div class="article">
     <div class="row">
       <div class="large-10 large-offset-1 columns end">
-        <h2><?php the_title(); ?></h2>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
       </div>
     </div>
       <div class="row">
