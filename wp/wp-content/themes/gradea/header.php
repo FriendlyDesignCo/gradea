@@ -120,9 +120,9 @@
                   <?php wp_list_categories(array('title_li' => '', 'exclude' => '1', 'hide_empty' => '0')); ?>
                 </ul>
             </div>
+             <!--/Dropdown Buttons-->
+             <div class="search"><?php get_search_form(); ?></div>
           </div>
-          <!--/Dropdown Buttons-->
-          <div class="search"><?php get_search_form(); ?></div>
         </div>
     
     
