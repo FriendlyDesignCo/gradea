@@ -11,7 +11,6 @@
 
 .elastislide-carousel ul li {
 	min-width: 20px; /* minimum width of the image (min width + border) */
-	margin-right:20px;
 }
 
 .elastislide-wrapper {
@@ -124,11 +123,4 @@
 	bottom: 10px;
 	top: auto;
 	background-position: -17px -18px;
-}
-
-
-@media screen and (max-width: 800px) {
-.elastislide-list img{
-width:80%;
-}
 }

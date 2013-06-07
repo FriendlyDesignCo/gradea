@@ -3,8 +3,6 @@
 -webkit-box-shadow: 2px 2px 11px rgba(50, 50, 50, 0.28);
 -moz-box-shadow:    2px 2px 11px rgba(50, 50, 50, 0.28);
 box-shadow:         2px 2px 11px rgba(50, 50, 50, 0.28);
-display:inline;
-height:auto;
 border:1px #fff solid;
 }
 
@@ -22,8 +20,7 @@ border:1px #C71949 solid;
 	top:1px;
 }
 .selected{
-	position:relative;
-	display: block;
+
 }
 /*.selected:after{
 border-left: 10px solid transparent;
