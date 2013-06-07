@@ -25,18 +25,19 @@ border:1px #C71949 solid;
 	position:relative;
 	display: block;
 }
-.selected:after{
-	top: 100%;
-	display:block;
-	content:" ";
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px solid #f00;
-	width:0;
-	left:-10px;
-	position:absolute;
-	margin:20px 0 0 50%;
-}
+/*.selected:after{
+border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #FF0000;
+    content: " ";
+    display: block;
+    height: 1px;
+    left: -2px;
+    margin: -10px 0 0 0;
+    position: relative;
+    top: 11px;
+    width: 1px;
+}*/
 
 
 
