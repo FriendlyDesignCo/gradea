@@ -107,7 +107,7 @@ $recent->the_post(); ?>
 <div class="row">
   <div class="large-offset-1 large-5 columns">
     <h2><?php the_title(); ?></h2>
-    <div class="panel"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
+    <div class="panel_"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
     <?php global $more; $more = 0; the_content(' '); $more = 1;?>
     <a href="<?php the_permalink(); ?>">Read More</a>
 </div>
@@ -118,7 +118,7 @@ $recent->the_post(); ?>
   <div class="large-5 columns end">
     <div class="article2">
     <h2><?php the_title(); ?></h2>
-    <div class="panel"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
+    <div class="panel_"><?php if (has_post_thumbnail()) { the_post_thumbnail(); } ?></div>
     <?php global $more; $more = 0; the_content(' '); $more = 1;?>
     <a href="<?php the_permalink(); ?>">Read More</a>
 </div>
