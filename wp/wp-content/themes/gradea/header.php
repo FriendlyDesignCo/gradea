@@ -92,7 +92,7 @@
   <div class="navigation">
     <div class="row"> 
       <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="/" alt="Grade A Marketing"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a></div></div>
-      <div class="large-7 columns nav-text end">
+      <div class="large-8 columns nav-text end">
         <ul>
           <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
           <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
