@@ -151,6 +151,10 @@ height:100px;
 
 }
 
+.nav-text{
+	text-align:right;
+}
+
 .navigation li{
 	display:inline-block;
 	padding-right:18px;
@@ -453,6 +457,7 @@ button:active, #contactSubmit:active, .wpcf7-submit:active {
 	.navbar .nav.pull-right{
 		font-size:1em;
 	}
+
 
 
 }

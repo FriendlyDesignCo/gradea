@@ -44,10 +44,8 @@ get_header();
   
   <!--/End Title Area-->
   <div class="row">
-    <div class="large-12 columns">
       <div class="panel panelimage"><?php if (has_post_thumbnail()) { the_post_thumbnail('full'); } ?></div>
     </div>
-  </div>
   
   <!--Start Content-->
    <div class="articlecontent"> 
