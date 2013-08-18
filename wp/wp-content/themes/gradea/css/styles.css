@@ -170,7 +170,7 @@ height:100px;
 }
 #searchform #s{
 	display:inline;
-	width:75%;
+	width:60%;
 }
 #searchform #searchsubmit{
 	background: #C71949; /* Old browsers */
@@ -196,6 +196,8 @@ height:100px;
 	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
 	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
 	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
+	border:none;
+	color:#fff;
 }
 
 
