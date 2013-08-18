@@ -164,6 +164,9 @@ height:100px;
 	color: #C71949;
 }
 
+#searchform{
+	margin-bottom:0px;
+}
 
 #searchform label{
 	display:inline;
@@ -171,6 +174,7 @@ height:100px;
 #searchform #s{
 	display:inline;
 	width:60%;
+	margin-bottom:0;
 }
 #searchform #searchsubmit{
 	background: #C71949; /* Old browsers */
@@ -189,12 +193,9 @@ height:100px;
 	font-style: italic;
 	padding-top:10px;
 	padding-bottom:10px;
-	font-size:1.4em;
+	font-size:0.7em;
 	text-shadow: 0px -1px 1px #8C8C8C;
 	filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);
-	-webkit-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
-	box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);	
-	-moz-box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, .25);
 	border:none;
 	color:#fff;
 }

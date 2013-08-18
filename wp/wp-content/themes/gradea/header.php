@@ -92,7 +92,7 @@
   <div class="navigation">
     <div class="row"> 
       <div class="large-offset-1 large-3 columns text-center"><div class="logo"><a href="/" alt="Grade A Marketing"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a></div></div>
-      <div class="large-8 columns text-center end">
+      <div class="large-7 columns text-right end">
         <ul>
           <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'container' => '', 'theme_location' => 'header-menu' ) ); ?>
           <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
@@ -107,7 +107,7 @@
     
           <!--Start Dropdown Buttons-->
           <div class="row">
-            <div class="large-offset-1 large-3 columns">
+            <div class="large-offset-1 large-2 columns">
               <a href="#" data-dropdown="drop1" class="dropdown filter">Sort By</a>
                 <ul id="drop1" class="f-dropdown" data-dropdown-content>
                   <li><a href="<?php echo $_SERVER['REDIRECT_URL']; ?>">Most Recent</a></li>
@@ -115,14 +115,14 @@
                 </ul>
             </div>
     
-          <div class="large-3 columns">
+          <div class="large-2 columns">
               <a href="#" data-dropdown="drop2" class="dropdown filter">Filter By Topic</a>
                 <ul id="drop2" class="f-dropdown" data-dropdown-content>
                   <?php wp_list_categories(array('title_li' => '', 'exclude' => '1', 'hide_empty' => '0')); ?>
                 </ul>
             </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-4 columns"><?php get_search_form(); ?></div>
+             <div class="search large-4 large-offset-2 columns end text-right"><?php get_search_form(); ?></div>
           </div>
         </div>
     
