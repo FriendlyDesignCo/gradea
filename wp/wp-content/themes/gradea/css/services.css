@@ -205,6 +205,7 @@ button:active {
 .fixing{
 	position:fixed;
 	top:0px;
+	left:0px;
 }
 @media screen and (max-width:  767px) {
 	#lower-nav{
