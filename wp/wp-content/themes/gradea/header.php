@@ -122,7 +122,7 @@
                 </ul>
             </div>
              <!--/Dropdown Buttons-->
-             <div class="search"><?php get_search_form(); ?></div>
+             <div class="search large-3 large-offset-1"><?php get_search_form(); ?></div>
           </div>
         </div>
     
