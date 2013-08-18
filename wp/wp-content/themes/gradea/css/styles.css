@@ -118,6 +118,13 @@ resize: none;
 height:100px;
 }
 
+.close-reveal-modal{
+	text-decoration:none;
+}
+.close-reveal-modal:hover{
+	color:#ccc;
+}
+
 /* Navigation Styles
 ================================================== */
 .navigation {
@@ -191,8 +198,7 @@ height:100px;
 	font-family: Georgia, serif;
 	font-weight: bold;
 	font-style: italic;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding:10px;
 	font-size:0.7em;
 	text-shadow: 0px -1px 1px #8C8C8C;
 	filter: dropshadow(color=#8C8C8C, offx=0, offy=-1);

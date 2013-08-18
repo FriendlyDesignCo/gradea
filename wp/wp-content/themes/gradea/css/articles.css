@@ -111,6 +111,16 @@ h2 a:hover{
 
 }
 
+.panelimage{
+	background:none;
+	border:none;
+	text-align: center;
+}
+.panelimage img{
+	width:100%;
+	height:auto;
+}
+
 @media screen and (max-width: 767px){
 	.filter{
 		-webkit-border-radius: 0px;
