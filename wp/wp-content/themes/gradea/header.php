@@ -122,7 +122,7 @@
                 </ul>
             </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-3 columns"><?php get_search_form(); ?></div>
+             <div class="search large-4 columns"><?php get_search_form(); ?></div>
           </div>
         </div>
     
