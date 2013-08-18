@@ -168,10 +168,10 @@ height:100px;
 
 
 .search label{
-	display:block;
+	display:inline;
 }
 .search #s{
-	display:block;
+	display:inline;
 }
 .search #searchsubmit{
 	background: #C71949; /* Old browsers */
