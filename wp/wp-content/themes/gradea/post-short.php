@@ -14,12 +14,12 @@
             <?php the_tags('<ul><li class="tag">','</li><li class="tag">','</li></ul>'); ?>
           </div>
         <?php else: ?>
-          <div class="large-10 columns">
+          <div class="large-10 large-offset-1 columns">
             <?php the_content('Read More'); ?>
           </div>
         <?php endif; ?>
     </div>
-    <div class="row"><div class="large-10 columns centered">
+    <div class="row"><div class="large-10 large-offset-1 columns centered">
     <div class="rule"></div>
   </div></div>
   </div>
