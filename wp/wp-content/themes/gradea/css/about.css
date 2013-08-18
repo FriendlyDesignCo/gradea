@@ -14,9 +14,9 @@ h1{
 
 .values li{
 font-size:1em;
-list-style-position: inside;
+list-style-position: outside;
 padding-bottom:20px;
-
+margin-left:30px;
 }
 
 .values{

@@ -80,6 +80,7 @@
       <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
     </ul>
     <a href="#" id="pull"></a>
+    <div class="responsivelogo"><img src="img/logo.png"></div>
   </nav>
 </div>
 </div>

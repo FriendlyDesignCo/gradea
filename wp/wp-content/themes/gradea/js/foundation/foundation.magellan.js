@@ -53,8 +53,8 @@
       this.fixed_magellan
         .on('update-position.fndtn.magellan', function(){
           var $el = $(this);
-          // $el.data("magellan-fixed-position","");
-          //$el.data("magellan-top-offset", "");
+          $el.data("magellan-fixed-position","");
+          $el.data("magellan-top-offset", "");
         })
         .trigger('update-position');
 
@@ -80,12 +80,12 @@
               $expedition.data("magellan-fixed-position", fixed_position);
               if (fixed_position) {
                 //Locked in
-                $expedition.addClass("fixing");
-                $('.sectiontwo').addClass("fixprep");
+                //$expedition.addClass("fixing");
+                //$('.sectiontwo').addClass("fixprep");
               } else {
                 //reverts from locking in
-                $expedition.removeClass("fixing");
-                $('.sectiontwo').removeClass("fixprep");
+                //$expedition.removeClass("fixing");
+                //$('.sectiontwo').removeClass("fixprep");
               }
               if (fixed_position && typeof attr != 'undefined' && attr != false) {
                 //$expedition.css({position:"fixed", top:attr + "px"});
