@@ -80,7 +80,7 @@
       <li><a class="item" data-reveal-id="Morgan" href="#">Contact</li></a>
     </ul>
     <a href="#" id="pull"></a>
-    <div class="responsivelogo"><img src="img/logo.png"></div>
+    <div class="responsivelogo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
   </nav>
 </div>
 </div>
