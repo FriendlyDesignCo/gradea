@@ -115,14 +115,14 @@
                 </ul>
             </div>
     
-          <div class="large-3 columns end">
+          <div class="large-3 columns">
               <a href="#" data-dropdown="drop2" class="dropdown filter">Filter By Topic</a>
                 <ul id="drop2" class="f-dropdown" data-dropdown-content>
                   <?php wp_list_categories(array('title_li' => '', 'exclude' => '1', 'hide_empty' => '0')); ?>
                 </ul>
             </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-3 large-offset-1"><?php get_search_form(); ?></div>
+             <div class="search large-3 columns"><?php get_search_form(); ?></div>
           </div>
         </div>
     
