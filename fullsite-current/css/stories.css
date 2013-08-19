@@ -10,14 +10,10 @@ border:1px #fff solid;
 border:1px #C71949 solid;
 }
 .logos .selected:hover img{
-	margin:-1px;
 }
 
 .selected img{
 	border:1px #C71949 solid;
-	margin:-1px;
-	position:relative;
-	top:1px;
 }
 .selected{
 
