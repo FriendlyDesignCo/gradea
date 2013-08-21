@@ -107,8 +107,8 @@
     
           <!--Start Dropdown Buttons-->
           <div class="row">
-            <div class="large-offset-1 large-5 columns">
-            <div class="large-6 columns">
+            <div class="large-offset-1 large-5 push-5 columns">
+            <div class="small-6 columns">
               <a href="#" data-dropdown="drop1" class="dropdown filter">Sort By</a>
                 <ul id="drop1" class="f-dropdown" data-dropdown-content>
                   <li><a href="<?php echo $_SERVER['REDIRECT_URL']; ?>">Most Recent</a></li>
@@ -116,7 +116,7 @@
                 </ul>
             </div>
     
-          <div class="large-6 columns end">
+          <div class="small-6 columns end">
               <a href="#" data-dropdown="drop2" class="dropdown filter">Filter By Topic</a>
                 <ul id="drop2" class="f-dropdown" data-dropdown-content>
                   <?php wp_list_categories(array('title_li' => '', 'exclude' => '1', 'hide_empty' => '0')); ?>
@@ -124,7 +124,7 @@
             </div>
           </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-5 columns end text-right"><?php get_search_form(); ?></div>
+             <div class="search large-5 pull-5 columns end small-centered large-uncentered text-right"><?php get_search_form(); ?></div>
           </div>
         </div>
     

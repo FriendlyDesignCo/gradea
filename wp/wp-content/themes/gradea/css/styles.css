@@ -359,6 +359,10 @@ button:active, #contactSubmit:active, .wpcf7-submit:active {
 	.nav-text{
 		text-align:center;
 	}
+	#searchform{
+		text-align: center;
+		margin-top:20px;
+	}
 }
 
 @media only screen and (max-device-width: 1024px){
