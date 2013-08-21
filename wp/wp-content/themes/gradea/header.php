@@ -102,7 +102,7 @@
   </div>
   
   <?php if(is_home() || is_category() || is_tag() || is_search()): ?>
-    <!--Start Secondary Nav-->
+    <!--Start Secondary Navigation-->
     <div class="secondarynav">
     
           <!--Start Dropdown Buttons-->

@@ -225,7 +225,7 @@ button:active {
 		padding-bottom:0px !important;
 	}
 	.navigation{
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) !important;
 	border-bottom: none;
 }
 }
