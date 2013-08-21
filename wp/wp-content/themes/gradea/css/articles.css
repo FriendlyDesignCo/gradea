@@ -118,6 +118,9 @@ h2 a:hover{
 		-moz-border-radius: 0px;
 		border-radius: 0px;
 	}
+	.search{
+		margin:0 0 20px 0;
+	}
 	.content{
 	margin-top: 205px;
 	}
@@ -125,6 +128,9 @@ h2 a:hover{
 
 @media screen and (max-width: 480px) {
 	.filter{
+		display:none;
+	}
+		.search{
 		display:none;
 	}
 	}
