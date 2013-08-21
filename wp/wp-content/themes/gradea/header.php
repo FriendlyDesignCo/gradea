@@ -109,7 +109,7 @@
           <div class="row">
             <div class="large-offset-1 large-5columns">
             <div class="small-6 columns">
-              <a href="#" data-dropdown="drop1" class="dropdown filter">Sort By</a>
+              <a href="#" data-dropdown="drop1" class="dropdown filter">Sort...</a>
                 <ul id="drop1" class="f-dropdown" data-dropdown-content>
                   <li><a href="<?php echo $_SERVER['REDIRECT_URL']; ?>">Most Recent</a></li>
                   <li><a href="?v_sortby=views&amp;v_orderby=desc">Most Popular</a></li>
@@ -117,7 +117,7 @@
             </div>
     
           <div class="small-6 columns end">
-              <a href="#" data-dropdown="drop2" class="dropdown filter">Filter By Topic</a>
+              <a href="#" data-dropdown="drop2" class="dropdown filter">Filter...</a>
                 <ul id="drop2" class="f-dropdown" data-dropdown-content>
                   <?php wp_list_categories(array('title_li' => '', 'exclude' => '1', 'hide_empty' => '0')); ?>
                 </ul>
