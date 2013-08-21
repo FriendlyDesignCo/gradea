@@ -124,7 +124,7 @@
             </div>
           </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-5 columns small-centered text-right"><?php get_search_form(); ?></div>
+             <div class="search large-5 columns end text-right"><?php get_search_form(); ?></div>
           </div>
         </div>
     
