@@ -107,7 +107,7 @@
     
           <!--Start Dropdown Buttons-->
           <div class="row">
-            <div class="large-offset-1 large-5columns">
+            <div class="large-offset-1 large-5 columns">
             <div class="small-6 columns">
               <a href="#" data-dropdown="drop1" class="dropdown filter">Sort...</a>
                 <ul id="drop1" class="f-dropdown" data-dropdown-content>
