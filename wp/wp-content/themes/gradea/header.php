@@ -107,7 +107,7 @@
     
           <!--Start Dropdown Buttons-->
           <div class="row">
-            <div class="large-offset-1 large-5 push-5 columns">
+            <div class="large-offset-1 large-5columns">
             <div class="small-6 columns">
               <a href="#" data-dropdown="drop1" class="dropdown filter">Sort By</a>
                 <ul id="drop1" class="f-dropdown" data-dropdown-content>
@@ -124,7 +124,7 @@
             </div>
           </div>
              <!--/Dropdown Buttons-->
-             <div class="search large-5 pull-5 columns end small-centered large-uncentered text-right"><?php get_search_form(); ?></div>
+             <div class="search large-5 columns small-centered text-right"><?php get_search_form(); ?></div>
           </div>
         </div>
     
