@@ -6,10 +6,10 @@
     </div>
       <div class="row">
         <?php if (has_post_thumbnail()): ?>
-          <div class="large-5 large-offset-1 columns">
+          <div class="large-4 large-offset-1 columns">
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a>
           </div>
-          <div class="large-5 columns">
+          <div class="large-6 columns end">
             <?php the_content('Read More'); ?>
             <?php the_tags('<ul><li class="tag">','</li><li class="tag">','</li></ul>'); ?>
           </div>
