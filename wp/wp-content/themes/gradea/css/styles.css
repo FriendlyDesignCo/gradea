@@ -348,7 +348,7 @@ button:active, #contactSubmit:active, .wpcf7-submit:active {
 	display:none;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
 	.navigation ul{
 		font-size:.8em;
 	}
