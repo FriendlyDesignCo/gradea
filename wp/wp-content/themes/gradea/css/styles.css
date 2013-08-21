@@ -177,6 +177,7 @@ height:100px;
 
 #searchform{
 	margin-bottom:0px;
+	font-size:0.7em;
 }
 
 #searchform label{
@@ -348,9 +349,9 @@ button:active, #contactSubmit:active, .wpcf7-submit:active {
 	display:none;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
 	.navigation ul{
-		font-size:.8em;
+		font-size:.7em;
 	}
 	.navigation {
 		padding-top:10px;
