@@ -10,10 +10,12 @@ if( !function_exists("theme_styles") )
         wp_register_style( 'foundation', get_template_directory_uri() . '/css/foundation.css', array(), '1.0', 'all' );
         wp_register_style( 'styles', get_template_directory_uri() . '/css/styles.css', array('foundation'), '1.0', 'all' );
         wp_register_style( 'navstyles', get_template_directory_uri() . '/css/navstyles.css', array('foundation','styles'), '1.0', 'all' );
+        wp_register_style( 'flexslider', get_template_directory_uri() . '/css/flexslider.css', array('foundation', 'styles'), '1.0', 'all' );
         
         wp_enqueue_style( 'foundation' );
         wp_enqueue_style( 'styles' );
         wp_enqueue_style( 'navstyles');
+        wp_enqueue_style( 'flexslider');
     }
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
