@@ -24,57 +24,42 @@ get_header();
   <div class="row">
     <div class="large-12 columns text-center">
       <div class="logos">
-        <ul id="carousel" class="elastislide-list"><!--small-block-grid-4-->
+        <ul class="elastislide-list" id="carousel"><!--small-block-grid-4-->
 
 <?php $args = array( 'post_type' => 'success_stories', 'posts_per_page' => 10 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <li <?php if (the_permalink()): ?>class="selected"<?php endif; ?>><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('success_story_thumbnail'); ?></a></li>
+          <li <?php if (get_permalink() == 'http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]): ?>class="selected"<?php endif; ?>><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('success_story_thumbnail'); ?></a></li>
 <?php endwhile; ?>
         </ul>
       </div>
     </div>
   </div>
-
+<?php wp_reset_query(); ?>
+<?php the_post(); ?>
   <div class="row">
     <div class="large-8 large-offset-2 columns">
     
     <div class="intro">
-      <h1>Turner Construction Company</h1>
-      <p>Ipsum placerat ut tristique sit amet, vulputate sit amet ligula. Nulla semper, nibh sed posuere egestas, felis mi auctor purus, sit amet convallis mi tellus ullamcorper sem. Cras non molestie mauris. Cras sodales eleifend risus, non consequat lorem faucibus nec.</p>
+      <h1><?php the_title(); ?></h1>
+      <?php the_pre_more_text(); $postText = get_the_post_more_text();?>
     </div>
-    
-          <section class="slider">
+
+          <!--<section class="slider">
             <div class="flexslider">
               <ul class="slides">
-                <li>
-                  <img src="img/4.jpg" />
-                </li>
-                <li>
-                  <img src="img/4.jpg" />
-                </li>
-                <li>
-                  <img src="img/4.jpg" />
-                </li>
-                <li>
-                  <img src="img/4.jpg" />
-                </li>
+  		          <?php foreach ($attachments as $attachment): ?>
+                  <li><?php echo wp_get_attachment_image($attachment->ID); ?></li>
+<?php endforeach; ?>
               </ul>
             </div>
           </section>
+-->
+
+      <?php echo $postText; ?> 
     
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo ligula, placerat ut tristique sit amet, vulputate sit amet ligula. Nulla semper, nibh sed posuere egestas, felis mi auctor purus, sit amet convallis mi tellus ullamcorper sem. Cras non molestie mauris. Cras sodales eleifend risus, non consequat lorem faucibus nec. Aliquam erat volutpat. Integer id sem ac libero varius fermentum. Donec placerat sagittis tristique.
-    </p>
-    <div class="pullquote">
-      After 3 hrs with Grade A, my marketing team was more productive the following month than they had been the entire past year.</div>
-    <div class="cite">&mdash; Turner Construction Company</div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo ligula, placerat ut tristique sit amet, vulputate sit amet ligula. Nulla semper, nibh sed posuere egestas, felis mi auctor purus, sit amet convallis mi tellus ullamcorper sem. Cras non molestie mauris. Cras sodales eleifend risus, non consequat lorem faucibus nec. Aliquam erat volutpat. Integer id sem ac libero varius fermentum. Donec placerat sagittis tristique.
-    </p>
-    
-    </div>
+
   </div>
 </div>
-
 
 <?php get_footer(); ?>
